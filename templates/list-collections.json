@@ -4,6 +4,7 @@
       "type": "list_cat_heading",
       "settings": {
         "shown": true,
+        "image": "shopify:\/\/shop_images\/1800x400.png",
         "parallax": false,
         "color": "#878787",
         "color_txt": "#fff",
