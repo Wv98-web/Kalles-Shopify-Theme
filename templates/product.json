@@ -61,12 +61,12 @@
         "meta": {
           "type": "meta",
           "settings": {
-            "show_pr_vendor": true,
-            "show_sku": true,
+            "show_pr_vendor": false,
+            "show_sku": false,
             "show_barcode": false,
-            "show_available": true,
-            "show_category_product": true,
-            "show_tag_product": true
+            "show_available": false,
+            "show_category_product": false,
+            "show_tag_product": false
           }
         },
         "social": {
