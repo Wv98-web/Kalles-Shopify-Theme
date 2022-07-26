@@ -227,7 +227,7 @@
           "type": "img",
           "settings": {
             "image": "shopify:\/\/shop_images\/360x360.png",
-            "url": ""
+            "url": "shopify:\/\/products\/adidas-superstar-80s"
           }
         },
         "1581508536038": {
@@ -236,14 +236,14 @@
             "pos_t": 28,
             "pos_l": 79,
             "cl_pin": "dark",
-            "product": "long-oversize-sweatshirt"
+            "product": "adidas-superstar-80s"
           }
         },
         "1581508120953-5": {
           "type": "img",
           "settings": {
             "image": "shopify:\/\/shop_images\/360x360.png",
-            "url": ""
+            "url": "shopify:\/\/products\/asics-tiger-gel-lyte-v-30-years-of-gel-pack"
           }
         },
         "1581508621940": {
@@ -252,14 +252,14 @@
             "pos_t": 66,
             "pos_l": 48,
             "cl_pin": "dark",
-            "product": "la-boheme-rose-gold"
+            "product": "asics-tiger-gel-lyte-v-30-years-of-gel-pack"
           }
         },
         "1581508120953-4": {
           "type": "img",
           "settings": {
             "image": "shopify:\/\/shop_images\/360x360.png",
-            "url": ""
+            "url": "shopify:\/\/products\/converse-chuck-taylor-all-star-ii-hi"
           }
         },
         "1581508614765": {
@@ -268,14 +268,14 @@
             "pos_t": 66,
             "pos_l": 42,
             "cl_pin": "dark",
-            "product": "high-waist-skinny-jean"
+            "product": "converse-chuck-taylor-all-star-ii-hi"
           }
         },
         "1581508222506": {
           "type": "img",
           "settings": {
             "image": "shopify:\/\/shop_images\/360x360.png",
-            "url": ""
+            "url": "shopify:\/\/products\/converse-chuck-taylor-all-star-lo"
           }
         },
         "1581508561626": {
@@ -284,14 +284,14 @@
             "pos_t": 50,
             "pos_l": 50,
             "cl_pin": "dark",
-            "product": "ritson-original-mom-jeans"
+            "product": "converse-chuck-taylor-all-star-lo"
           }
         },
         "1581782278305": {
           "type": "img",
           "settings": {
             "image": "shopify:\/\/shop_images\/360x360.png",
-            "url": ""
+            "url": "shopify:\/\/products\/converse-toddler-chuck-taylor-all-star-axel-mid"
           }
         },
         "1581789761991": {
@@ -300,7 +300,7 @@
             "pos_t": 50,
             "pos_l": 50,
             "cl_pin": "dark",
-            "product": "long-oversize-sweatshirt"
+            "product": "converse-toddler-chuck-taylor-all-star-axel-mid"
           }
         }
       },
