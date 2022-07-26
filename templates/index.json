@@ -440,7 +440,7 @@
         "col_pr": "3",
         "col_pr_tb": "3",
         "col_pr_mb": "6",
-        "pr_des": "1",
+        "pr_des": "1 tc",
         "show_vendor": false,
         "use_cdt": false,
         "round_cd": false,
