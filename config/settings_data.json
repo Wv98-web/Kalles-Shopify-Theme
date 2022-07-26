@@ -157,6 +157,7 @@
     "pswp_tp": "light",
     "show_zoom_img": true,
     "pr_curent": "3",
+    "fbt_pos": "2",
     "show_first_img": false,
     "use_vimg": true,
     "sticky_atc": true,
