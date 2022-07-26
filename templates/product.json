@@ -29,6 +29,12 @@
             "readm_txt": "Read more"
           }
         },
+        "05a57dd3-017d-43cb-b6a7-cb98efc0e14b": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/pages\/shipping\" target=\"_blank\" title=\"Shipping\">Tax included. Shipping calculated at checkout.<\/a><\/p>"
+          }
+        },
         "size": {
           "type": "size",
           "settings": {
@@ -80,17 +86,26 @@
           "settings": {
             "class": "tc"
           }
+        },
+        "fa863d8a-5fd1-4974-85b8-688625995a5f": {
+          "type": "tab_liquid",
+          "settings": {
+            "title": "Custom Liquid",
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
         "title",
         "pricereview",
         "des",
+        "05a57dd3-017d-43cb-b6a7-cb98efc0e14b",
         "size",
         "frm",
         "4087fb0a-0507-4032-8bd1-89980d7e479c",
         "meta",
-        "social"
+        "social",
+        "fa863d8a-5fd1-4974-85b8-688625995a5f"
       ],
       "settings": {
         "pr_layout": "default",
