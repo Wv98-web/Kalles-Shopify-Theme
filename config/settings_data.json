@@ -1304,11 +1304,13 @@
           },
           "cart_widget-2": {
             "type": "agree",
+            "disabled": true,
             "settings": {
             }
           },
           "cart_widget-3": {
             "type": "btnc",
+            "disabled": true,
             "settings": {
             }
           },
@@ -1331,7 +1333,7 @@
             "type": "btn",
             "settings": {
               "title": "Return To Shop",
-              "url": "",
+              "url": "shopify:\/\/collections\/all-products",
               "style": "primary tu"
             }
           }
@@ -1349,7 +1351,7 @@
           "style": "1",
           "pos": "2",
           "enable_pr": false,
-          "calc_ship": true,
+          "calc_ship": false,
           "show_note": true,
           "show_rates": false,
           "show_discount": false,
