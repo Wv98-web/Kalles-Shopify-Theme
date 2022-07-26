@@ -209,7 +209,7 @@
     "show_search_suggest": true,
     "search_prs_suggest": "trending",
     "lr_enable": true,
-    "use_privacy_policy": false,
+    "use_privacy_policy": true,
     "privacy_policy_link": "privacy-policys-1",
     "login_side": true,
     "free_ship_pr": "skinny-jeans-in-black",
