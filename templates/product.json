@@ -29,6 +29,19 @@
             "readm_txt": "Read more"
           }
         },
+        "size": {
+          "type": "size",
+          "settings": {
+            "size_chart": "3",
+            "pos_sizeg": "1",
+            "sc_type": "1",
+            "page": "sizing-chat",
+            "size_ck": "",
+            "delivery": false,
+            "page_dr": "",
+            "ask": false
+          }
+        },
         "frm": {
           "type": "frm",
           "settings": {
@@ -43,19 +56,6 @@
             "show_qty": true,
             "btn_atc_full": true,
             "enable_payment_btn": true
-          }
-        },
-        "size": {
-          "type": "size",
-          "settings": {
-            "size_chart": "3",
-            "pos_sizeg": "1",
-            "sc_type": "1",
-            "page": "",
-            "size_ck": "",
-            "delivery": false,
-            "page_dr": "",
-            "ask": false
           }
         },
         "meta": {
@@ -80,8 +80,8 @@
         "title",
         "pricereview",
         "des",
-        "frm",
         "size",
+        "frm",
         "meta",
         "social"
       ],
