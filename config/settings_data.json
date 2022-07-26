@@ -172,7 +172,7 @@
     "use_notify_me": true,
     "share_source": "2",
     "within_cat": true,
-    "use_quickview": true,
+    "use_quickview": false,
     "use_pr_rating": false,
     "hide_btns": false,
     "price_format": "1",
