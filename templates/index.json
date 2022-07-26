@@ -453,12 +453,72 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "1658814543a4cd7f71": {
+      "type": "banner",
+      "blocks": {
+        "16588145431293256b-0": {
+          "type": "image",
+          "settings": {
+            "img_align": "center",
+            "url": "",
+            "open_link": "_self",
+            "cat_design": "1",
+            "title": "LOOKBOOK 2019",
+            "title_2": "MAKE LOVE THIS LOOK",
+            "txt_align": "tc",
+            "banner_align": "fl_center"
+          }
+        },
+        "16588145431293256b-1": {
+          "type": "image",
+          "settings": {
+            "img_align": "center",
+            "url": "",
+            "open_link": "_self",
+            "cat_design": "1",
+            "title": "LOOKBOOK 2019",
+            "title_2": "MAKE LOVE THIS LOOK",
+            "txt_align": "tc",
+            "banner_align": "fl_center"
+          }
+        }
+      },
+      "block_order": [
+        "16588145431293256b-0",
+        "16588145431293256b-1"
+      ],
+      "settings": {
+        "title": "",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "cat_space": "30",
+        "image_ratio": "auto",
+        "col": "6",
+        "col_md": "6",
+        "col_mb": "12",
+        "hoverz": true,
+        "use_shadow": false,
+        "cl_txt": "#fff",
+        "cl_overlay": "#000",
+        "cl_opacity": 0,
+        "layout": "container",
+        "cl_bg": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
     "16357021760efbe511",
     "165881397559f91f59",
     "1658809373b3e01cfc",
-    "16357041768f51742b"
+    "16357041768f51742b",
+    "1658814543a4cd7f71"
   ]
 }
