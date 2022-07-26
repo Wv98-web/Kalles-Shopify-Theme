@@ -1068,16 +1068,18 @@
               "text": "Copyright © [year] <span class=\"cp\">Wuwei01<\/span> all rights reserved."
             }
           },
-          "1581507855652": {
-            "type": "menu",
+          "4167f9b7-24b7-443d-90fe-6ad2a54d4849": {
+            "type": "payment",
             "settings": {
-              "menu": "footer"
+              "source": "2",
+              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
+              "height": 30
             }
           }
         },
         "block_order": [
           "1581507860120",
-          "1581507855652"
+          "4167f9b7-24b7-443d-90fe-6ad2a54d4849"
         ],
         "settings": {
           "layout": "6",
