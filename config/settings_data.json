@@ -1549,6 +1549,51 @@
         ],
         "settings": {
         }
+      },
+      "pr-sidebar": {
+        "type": "pr-sidebar",
+        "blocks": {
+          "pr-sidebar-0": {
+            "type": "shipping",
+            "settings": {
+              "title": "Shipping & Delivery",
+              "shipping_1": "truck,FREE SHIPPING,Free shipping for all US order",
+              "shipping_2": "headset,SUPPORT 24\/7,We support 24 hours a day",
+              "shipping_3": "exchange-alt,30 DAYS RETURN,You have 30 days to return",
+              "shipping_4": "",
+              "shipping_5": "",
+              "shipping_6": ""
+            }
+          },
+          "pr-sidebar-1": {
+            "type": "instagram",
+            "settings": {
+              "title": "Instagram",
+              "acc2": "",
+              "limit": 9,
+              "open_link": "_blank",
+              "space": "2",
+              "rounded_ins": "0",
+              "col_pr": "4",
+              "col_pr_tb": "4",
+              "col_pr_mb": "4"
+            }
+          },
+          "pr-sidebar-2": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your brand",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "pr-sidebar-0",
+          "pr-sidebar-1",
+          "pr-sidebar-2"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
