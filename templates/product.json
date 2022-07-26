@@ -34,15 +34,15 @@
           "settings": {
             "ani": "none",
             "time": 6,
-            "btn_des": "1",
+            "btn_des": "2",
             "btn_txt": "3",
             "swatch_design": "2",
             "style_color": "1",
             "swatch_style": "1",
             "swatch_size": "medium",
             "show_qty": true,
-            "btn_atc_full": false,
-            "enable_payment_btn": false
+            "btn_atc_full": true,
+            "enable_payment_btn": true
           }
         },
         "size": {
