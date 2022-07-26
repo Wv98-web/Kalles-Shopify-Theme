@@ -1131,7 +1131,7 @@
       "sales_popup": {
         "type": "sales_popup",
         "settings": {
-          "collection_id": "trending",
+          "collection_id": "all-products",
           "limit": 50,
           "index": true,
           "product": true,
