@@ -6,192 +6,7 @@
         "16357021760efbe511-0": {
           "type": "img",
           "settings": {
-            "pos_img": "center center",
-            "cl_img": "rgba(0,0,0,0)",
-            "link_img1": "",
-            "open_link": "_blank",
-            "caption_w": "1",
-            "cap_v_pos": 50,
-            "cap_h_pos": 0,
-            "txt_align": "tl_md",
-            "cap_v_pos_mb": 50,
-            "cap_h_pos_mb": 39,
-            "txt_align_mb": "tl",
-            "cl_overlay": "#000000",
-            "cl_opacity": 0,
-            "ani_img": "none",
-            "ani_txt": "none",
-            "bg_content_bl": false,
-            "bg_content_cl": "#ffffff",
-            "bg_content_op": 50,
-            "content_pd": "40px 80px",
-            "content_pd_mb": "10px 20px",
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10
-          }
-        },
-        "f861caef-b8e0-4895-b120-3a82a8928a96": {
-          "type": "txt",
-          "settings": {
-            "font": "f_body",
-            "title": "SUMMER 2022",
-            "color": "#222222",
-            "fw_text": 500,
-            "fs_text": 18,
-            "lh_text": 0,
-            "ls_text": 0,
-            "fs_mb_text": 12,
-            "lh_mb_text": 0,
-            "ls_mb_text": 0,
-            "hide": false,
-            "sp": 5,
-            "sp_mb": 5
-          }
-        },
-        "f85582ae-8d14-40c8-b6e1-cc73503c13ed": {
-          "type": "txt",
-          "settings": {
-            "font": "f_heading",
-            "title": "New Arrival Collection",
-            "color": "#222222",
-            "fw_text": 600,
-            "fs_text": 55,
-            "lh_text": 0,
-            "ls_text": 0,
-            "fs_mb_text": 20,
-            "lh_mb_text": 0,
-            "ls_mb_text": 0,
-            "hide": false,
-            "sp": 10,
-            "sp_mb": 10
-          }
-        },
-        "16357021760efbe511-2": {
-          "type": "btn",
-          "settings": {
-            "title": "Explore Now",
-            "btn_link": "shopify:\/\/collections\/trending",
-            "title2": "Shop Now",
-            "btn_link2": "",
-            "btn_w": false,
-            "btn_icon": false,
-            "cl_txt": "#ffffff",
-            "cl_bg": "#222222",
-            "cl_bd": "#222222",
-            "fs_text": 14,
-            "fw_text": 600,
-            "h": 40,
-            "ls_text": 0,
-            "bdr": 0,
-            "pd": 15,
-            "fs_mb_text": 14,
-            "h_mb": 40,
-            "ls_mb_text": 0,
-            "bdr_mb": 0,
-            "pd_mb": 15,
-            "sp": 0,
-            "sp_mb": 0
-          }
-        },
-        "16357021760efbe511-3": {
-          "type": "img",
-          "settings": {
-            "pos_img": "center center",
-            "cl_img": "rgba(0,0,0,0)",
-            "link_img1": "",
-            "open_link": "_blank",
-            "caption_w": "1",
-            "cap_v_pos": 50,
-            "cap_h_pos": 100,
-            "txt_align": "tr_md",
-            "cap_v_pos_mb": 50,
-            "cap_h_pos_mb": 39,
-            "txt_align_mb": "tl",
-            "cl_overlay": "#000000",
-            "cl_opacity": 0,
-            "ani_img": "none",
-            "ani_txt": "none",
-            "bg_content_bl": false,
-            "bg_content_cl": "#ffffff",
-            "bg_content_op": 50,
-            "content_pd": "40px 80px",
-            "content_pd_mb": "10px 20px",
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10
-          }
-        },
-        "16357021760efbe511-7": {
-          "type": "txt",
-          "settings": {
-            "font": "f_body",
-            "title": "NEW SEASON",
-            "color": "#222222",
-            "fw_text": 500,
-            "fs_text": 18,
-            "lh_text": 0,
-            "ls_text": 0,
-            "fs_mb_text": 12,
-            "lh_mb_text": 0,
-            "ls_mb_text": 0,
-            "hide": false,
-            "sp": 5,
-            "sp_mb": 5
-          }
-        },
-        "16357021760efbe511-8": {
-          "type": "txt",
-          "settings": {
-            "font": "f_heading",
-            "title": "Lookbook Collection",
-            "color": "#222222",
-            "fw_text": 600,
-            "fs_text": 55,
-            "lh_text": 0,
-            "ls_text": 0,
-            "fs_mb_text": 20,
-            "lh_mb_text": 0,
-            "ls_mb_text": 0,
-            "hide": false,
-            "sp": 10,
-            "sp_mb": 10
-          }
-        },
-        "16357021760efbe511-9": {
-          "type": "btn",
-          "settings": {
-            "title": "Explore Now",
-            "btn_link": "shopify:\/\/collections\/trending",
-            "title2": "Shop Now",
-            "btn_link2": "",
-            "btn_w": false,
-            "btn_icon": false,
-            "cl_txt": "#ffffff",
-            "cl_bg": "#222222",
-            "cl_bd": "#222222",
-            "fs_text": 14,
-            "fw_text": 600,
-            "h": 40,
-            "ls_text": 0,
-            "bdr": 0,
-            "pd": 15,
-            "fs_mb_text": 14,
-            "h_mb": 40,
-            "ls_mb_text": 0,
-            "bdr_mb": 0,
-            "pd_mb": 15,
-            "sp": 0,
-            "sp_mb": 0
-          }
-        },
-        "16357021760efbe511-6": {
-          "type": "img",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/1800x800.png",
             "pos_img": "center center",
             "cl_img": "rgba(0,0,0,0)",
             "link_img1": "",
@@ -221,6 +36,7 @@
         },
         "16357021760efbe511-5": {
           "type": "txt",
+          "disabled": true,
           "settings": {
             "font": "f_body",
             "title": "SUMMER SALE",
@@ -239,6 +55,7 @@
         },
         "16357021760efbe511-1": {
           "type": "txt",
+          "disabled": true,
           "settings": {
             "font": "f_heading",
             "title": "Save up to 70%",
@@ -257,6 +74,7 @@
         },
         "16357021760efbe511-4": {
           "type": "btn",
+          "disabled": true,
           "settings": {
             "title": "Explore Now",
             "btn_link": "shopify:\/\/collections\/trending",
@@ -285,14 +103,6 @@
       },
       "block_order": [
         "16357021760efbe511-0",
-        "f861caef-b8e0-4895-b120-3a82a8928a96",
-        "f85582ae-8d14-40c8-b6e1-cc73503c13ed",
-        "16357021760efbe511-2",
-        "16357021760efbe511-3",
-        "16357021760efbe511-7",
-        "16357021760efbe511-8",
-        "16357021760efbe511-9",
-        "16357021760efbe511-6",
         "16357021760efbe511-5",
         "16357021760efbe511-1",
         "16357021760efbe511-4"
