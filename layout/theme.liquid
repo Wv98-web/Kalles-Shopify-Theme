@@ -49,6 +49,7 @@
     endcapture -%}
 
     {{ content_for_header }}
+  {% render 'judgeme_core' %}
 </head>
 <body {{class_body_theme | strip_newlines-}}>
   {%- render 'lazypreload' -%}
