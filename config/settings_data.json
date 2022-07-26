@@ -169,7 +169,7 @@
     "pr_incoming_mess": true,
     "date_in": "7",
     "remove_sold_out": false,
-    "use_notify_me": true,
+    "use_notify_me": false,
     "share_source": "2",
     "within_cat": true,
     "use_quickview": false,

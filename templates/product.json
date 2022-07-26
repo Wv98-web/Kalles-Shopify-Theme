@@ -58,6 +58,12 @@
             "enable_payment_btn": true
           }
         },
+        "4087fb0a-0507-4032-8bd1-89980d7e479c": {
+          "type": "html",
+          "settings": {
+            "page": "sale"
+          }
+        },
         "meta": {
           "type": "meta",
           "settings": {
@@ -82,6 +88,7 @@
         "des",
         "size",
         "frm",
+        "4087fb0a-0507-4032-8bd1-89980d7e479c",
         "meta",
         "social"
       ],
