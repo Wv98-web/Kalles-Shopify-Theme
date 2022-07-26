@@ -86,13 +86,6 @@
           "settings": {
             "class": "tc"
           }
-        },
-        "fa863d8a-5fd1-4974-85b8-688625995a5f": {
-          "type": "tab_liquid",
-          "settings": {
-            "title": "Custom Liquid",
-            "custom_liquid": ""
-          }
         }
       },
       "block_order": [
@@ -104,8 +97,7 @@
         "frm",
         "4087fb0a-0507-4032-8bd1-89980d7e479c",
         "meta",
-        "social",
-        "fa863d8a-5fd1-4974-85b8-688625995a5f"
+        "social"
       ],
       "settings": {
         "pr_layout": "default",
