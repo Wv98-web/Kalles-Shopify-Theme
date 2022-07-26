@@ -399,18 +399,18 @@
       "header_top": {
         "type": "header_top",
         "blocks": {
-          "header_top-1": {
-            "type": "text",
-            "settings": {
-              "text": "Summer sale discount off <span class=\"cr\">50%<\/span>! <a href=\"\/collections\/trending\">Shop Now<\/a>",
-              "hide": false,
-              "col": "4"
-            }
-          },
           "header_top-0": {
             "type": "text",
             "settings": {
               "text": "<i class=\"pegk pe-7s-call\"><\/i><a class=\"cg\" href=\"tel:%20+0123456789\"> +01 23456789<\/a> <i class=\"pegk pe-7s-mail ml__15\"><\/i> <a class=\"cg\" href=\"mailto:kalles@domain.com\">Kalles@domain.com<\/a>",
+              "hide": false,
+              "col": "4"
+            }
+          },
+          "header_top-1": {
+            "type": "text",
+            "settings": {
+              "text": "Summer sale discount off <span class=\"cr\">50%<\/span>! <a href=\"\/collections\/trending\">Shop Now<\/a>",
               "hide": false,
               "col": "4"
             }
@@ -1348,11 +1348,11 @@
         "settings": {
           "style": "1",
           "pos": "2",
-          "enable_pr": true,
+          "enable_pr": false,
           "calc_ship": true,
           "show_note": true,
-          "show_rates": true,
-          "show_discount": true,
+          "show_rates": false,
+          "show_discount": false,
           "show_gift_wrap": true
         }
       },
