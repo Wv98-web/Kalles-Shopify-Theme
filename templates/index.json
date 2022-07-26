@@ -359,75 +359,11 @@
         "mg_mb": "",
         "pd_mb": ""
       }
-    },
-    "1581530479619": {
-      "type": "shipping",
-      "blocks": {
-        "1581530479619-0": {
-          "type": "shipping",
-          "settings": {
-            "icon": "pe-7s-car",
-            "title": "FREE SHIPPING",
-            "text": "Free shipping on all US order or order above $100"
-          }
-        },
-        "1581530479619-1": {
-          "type": "shipping",
-          "settings": {
-            "icon": "pe-7s-help2",
-            "title": "SUPPORT 24\/7",
-            "text": "Contact us 24 hours a day, 7 days a week"
-          }
-        },
-        "1581530479619-2": {
-          "type": "shipping",
-          "settings": {
-            "icon": "pe-7s-refresh",
-            "title": "30 DAYS RETURN",
-            "text": "Simply return it within 30 days for an exchange."
-          }
-        },
-        "1581530479619-3": {
-          "type": "shipping",
-          "settings": {
-            "icon": "pe-7s-door-lock",
-            "title": "100% PAYMENT SECURE",
-            "text": "We ensure secure payment with PEV"
-          }
-        }
-      },
-      "block_order": [
-        "1581530479619-0",
-        "1581530479619-1",
-        "1581530479619-2",
-        "1581530479619-3"
-      ],
-      "settings": {
-        "source": "pegk",
-        "icon_des": "deafult",
-        "icon_align": "tl",
-        "icon_size": "medium",
-        "col_pr": "3",
-        "col_pr_tb": "6",
-        "col_mb": "fl_nowrap",
-        "layout": "container",
-        "cl_bg": "#ffffff",
-        "border": false,
-        "cl_bd": "#dddddd",
-        "cl_ic": "#9e9e9e",
-        "cl_hd": "#222222",
-        "cl_cot": "#878787",
-        "mg": "50px,,,",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
     }
   },
   "order": [
     "16357021760efbe511",
     "1581993333344",
-    "16357041768f51742b",
-    "1581530479619"
+    "16357041768f51742b"
   ]
 }
