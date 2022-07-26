@@ -175,6 +175,8 @@
     "use_quickview": false,
     "use_pr_rating": false,
     "hide_btns": false,
+    "bordered_grid2": "2",
+    "des_btns_pr": "2 pos_pr_btmt4",
     "price_format": "1",
     "show_pr_img": "2",
     "hover_img": "2",
