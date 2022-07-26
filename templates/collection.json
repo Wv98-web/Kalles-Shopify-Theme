@@ -19,6 +19,7 @@
         },
         "b9fa77af-4041-42da-b41c-1df6ade5dbbd": {
           "type": "2",
+          "disabled": true,
           "settings": {
             "color": "#ededed"
           }
@@ -30,9 +31,10 @@
       ],
       "settings": {
         "shown": true,
+        "image": "shopify:\/\/shop_images\/1800x400.png",
         "use_specify_image": false,
         "parallax": false,
-        "color": "#dcdcdc",
+        "color": "rgba(0,0,0,0)",
         "overlay": 100,
         "padding": 15,
         "paddingmb": 50,
