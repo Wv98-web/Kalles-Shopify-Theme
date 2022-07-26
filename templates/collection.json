@@ -60,7 +60,7 @@
         "col_mb": "6",
         "pr_txt": "products",
         "use_eq_height": true,
-        "image_ratio": "ratio1_1"
+        "image_ratio": "ratio_nt"
       }
     },
     "main": {
