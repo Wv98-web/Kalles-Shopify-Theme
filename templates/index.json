@@ -133,6 +133,101 @@
         "pd_mb": ""
       }
     },
+    "165881397559f91f59": {
+      "type": "collection-list_manual",
+      "blocks": {
+        "16588139759c94ba4c-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "adidas",
+            "image": "shopify:\/\/shop_images\/540x1024.png",
+            "img_align": "center",
+            "title": "",
+            "url": "",
+            "col": "3",
+            "col_md": "3",
+            "col_mb": "6"
+          }
+        },
+        "16588139759c94ba4c-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "nike",
+            "image": "shopify:\/\/shop_images\/540x1024.png",
+            "img_align": "center",
+            "title": "",
+            "url": "",
+            "col": "3",
+            "col_md": "3",
+            "col_mb": "6"
+          }
+        },
+        "16588139759c94ba4c-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "converse",
+            "image": "shopify:\/\/shop_images\/540x1024.png",
+            "img_align": "center",
+            "title": "",
+            "url": "",
+            "col": "3",
+            "col_md": "3",
+            "col_mb": "6"
+          }
+        },
+        "16588139759c94ba4c-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "vans",
+            "image": "shopify:\/\/shop_images\/540x1024.png",
+            "img_align": "center",
+            "title": "",
+            "url": "",
+            "col": "3",
+            "col_md": "3",
+            "col_mb": "6"
+          }
+        }
+      },
+      "block_order": [
+        "16588139759c94ba4c-0",
+        "16588139759c94ba4c-1",
+        "16588139759c94ba4c-2",
+        "16588139759c94ba4c-3"
+      ],
+      "settings": {
+        "title": "",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "cat_layout": "1",
+        "hoverz": true,
+        "cat_design": "1",
+        "cat_space": "30",
+        "pr_txt": "products",
+        "loop": true,
+        "autoplay": false,
+        "au_time": 6,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": true,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "cp_code": false,
+        "layout": "wrap",
+        "cl_bg": "",
+        "hide_bgimg": false,
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "1658809373b3e01cfc": {
       "type": "featured_collection",
       "settings": {
@@ -362,6 +457,7 @@
   },
   "order": [
     "16357021760efbe511",
+    "165881397559f91f59",
     "1658809373b3e01cfc",
     "16357041768f51742b"
   ]
