@@ -179,7 +179,7 @@
           "type": "img",
           "settings": {
             "image": "shopify:\/\/shop_images\/360x360.png",
-            "url": ""
+            "url": "shopify:\/\/products\/adidas-classic-backpack-legend-ink-multicolour"
           }
         },
         "1581508249339": {
@@ -188,14 +188,14 @@
             "pos_t": 39,
             "pos_l": 39,
             "cl_pin": "dark",
-            "product": "analogue-resin-strap"
+            "product": "adidas-classic-backpack-legend-ink-multicolour"
           }
         },
         "1581508120953-2": {
           "type": "img",
           "settings": {
             "image": "shopify:\/\/shop_images\/360x360.png",
-            "url": ""
+            "url": "shopify:\/\/products\/adidas-classic-backpack"
           }
         },
         "1581508571978": {
@@ -204,14 +204,14 @@
             "pos_t": 50,
             "pos_l": 50,
             "cl_pin": "dark",
-            "product": "wide-fit-dusty"
+            "product": "adidas-classic-backpack"
           }
         },
         "1581508120953-1": {
           "type": "img",
           "settings": {
             "image": "shopify:\/\/shop_images\/360x360.png",
-            "url": ""
+            "url": "shopify:\/\/products\/adidas-kids-stan-smith"
           }
         },
         "1581508478366": {
@@ -220,7 +220,7 @@
             "pos_t": 32,
             "pos_l": 67,
             "cl_pin": "dark",
-            "product": "cuffed-beanie"
+            "product": "adidas-kids-stan-smith"
           }
         },
         "1581508120953-3": {
@@ -330,7 +330,7 @@
         "ic_tt": "gem",
         "show_clpr": false,
         "layout_des": "2",
-        "open_link": "_self",
+        "open_link": "_blank",
         "space": "0",
         "rounded_ins": "0",
         "col_pr": "2",
@@ -342,7 +342,7 @@
         "button": true,
         "btn_vi": "1",
         "btn_owl": "1",
-        "btn_color": "0",
+        "btn_color": "1",
         "dot": false,
         "dot_owl": "1",
         "dot_color": "1",
