@@ -31,7 +31,7 @@
     "checkbox_mail": false,
     "link_mail": "",
     "wishlist_type": "1",
-    "app_review": "7",
+    "app_review": "1",
     "label_settings": "rounded",
     "use_sale_label": false,
     "label_sale_style": "2",
@@ -453,17 +453,6 @@
       "footer_top": {
         "type": "footer_top",
         "blocks": {
-          "1581507840818": {
-            "type": "menu",
-            "settings": {
-              "title": "Useful links",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
           "1581507819652": {
             "type": "logo",
             "settings": {
@@ -475,6 +464,28 @@
               "social_mode": "3",
               "order": "1",
               "cl": "3",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          },
+          "1581507824602": {
+            "type": "menu",
+            "settings": {
+              "title": "Categories",
+              "menu": "",
+              "order": "1",
+              "cl": "2",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          },
+          "1581507840818": {
+            "type": "menu",
+            "settings": {
+              "title": "Useful links",
+              "menu": "",
+              "order": "1",
+              "cl": "2",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -491,17 +502,6 @@
               "height": 30,
               "order": "1",
               "cl": "3",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507824602": {
-            "type": "menu",
-            "settings": {
-              "title": "Categories",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -581,6 +581,68 @@
       "header_3": {
         "type": "header_3",
         "blocks": {
+          "ec1e6927-0210-49c0-9869-445dae47e1a3": {
+            "type": "list",
+            "settings": {
+              "title": "Demo",
+              "url": "https:\/\/kalles-demo.myshopify.com\/?preview_theme_id=",
+              "open_link": "_self",
+              "menu": "",
+              "col": "3",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "center",
+              "wid": "cus",
+              "cus_wid": 1000,
+              "enable_cat": true,
+              "cat_design": "1",
+              "hoverz": true,
+              "cat_ratio": "ratio_adapt",
+              "cat_size": "nt_cover",
+              "cat_position": "8",
+              "enable_pr": true,
+              "pr_des": "1",
+              "show_vendor": false,
+              "use_cdt": false,
+              "round_cd": false,
+              "cdt_des": "1",
+              "use_eq_height": false,
+              "image_ratio": "ratio_nt",
+              "image_size": "nt_cover",
+              "image_position": "8"
+            }
+          },
+          "1585641227863": {
+            "type": "mega",
+            "settings": {
+              "title": "Shop",
+              "url": "https:\/\/kalles-demo.myshopify.com\/collections\/women\/?preview_theme_id=",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "New",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "center",
+              "wid": "cus",
+              "cus_wid": 950
+            }
+          },
+          "1585991609385": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "SHOP PAGES",
+              "url": "https:\/\/kalles-demo.myshopify.com\/collections\/women\/?preview_theme_id=",
+              "open_link": "_self",
+              "menu": "",
+              "col": "2"
+            }
+          },
           "1585991685838": {
             "type": "link",
             "settings": {
@@ -601,27 +663,14 @@
               "col": "4"
             }
           },
-          "1585641835304": {
-            "type": "dropdown",
+          "1586766954308": {
+            "type": "cat",
             "settings": {
-              "title": "Lookbook",
-              "url": "https:\/\/kalles-demo.myshopify.com\/blogs\/life-style\/the-easiest-way-to-break-out-on-top-1\/?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "right"
-            }
-          },
-          "1586767322260": {
-            "type": "link2",
-            "settings": {
-              "col": "2",
-              "menu": ""
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "men",
+              "title": "",
+              "col": "4"
             }
           },
           "504c41cf-3799-4c0f-ba94-a387ae791984": {
@@ -659,14 +708,47 @@
               "image_position": "8"
             }
           },
-          "1585991609385": {
-            "type": "link",
+          "1586767100450": {
+            "type": "mega",
             "settings": {
-              "tt_hd": "SHOP PAGES",
-              "url": "https:\/\/kalles-demo.myshopify.com\/collections\/women\/?preview_theme_id=",
+              "title": "Sale",
+              "url": "shopify:\/\/collections\/sale",
               "open_link": "_self",
-              "menu": "",
-              "col": "2"
+              "icon": "",
+              "cus_cl": true,
+              "cl": "#ec0101",
+              "lb": "Sale",
+              "lb_cl": "#ffa800",
+              "lazy_mn": true,
+              "pos": "center",
+              "wid": "cus",
+              "cus_wid": 1200
+            }
+          },
+          "1586767322260": {
+            "type": "link2",
+            "settings": {
+              "col": "2",
+              "menu": ""
+            }
+          },
+          "1586767123172": {
+            "type": "pr",
+            "settings": {
+              "limit": 6,
+              "id_cat": "trending",
+              "column_pr": 4,
+              "pr_des": "1",
+              "show_vendor": false,
+              "pr_lay": "2",
+              "use_cdt": false,
+              "round_cd": false,
+              "cdt_des": "1",
+              "use_eq_height": false,
+              "image_ratio": "ratio_nt",
+              "image_size": "nt_cover",
+              "image_position": "8",
+              "col": "10"
             }
           },
           "1585641802325": {
@@ -674,6 +756,22 @@
             "settings": {
               "title": "Portfolio",
               "url": "https:\/\/kalles-demo.myshopify.com\/blogs\/portfolio\/?preview_theme_id=",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "right"
+            }
+          },
+          "1585641835304": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Lookbook",
+              "url": "https:\/\/kalles-demo.myshopify.com\/blogs\/life-style\/the-easiest-way-to-break-out-on-top-1\/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -699,104 +797,6 @@
               "lb_cl": "",
               "lazy_mn": true,
               "pos": "right"
-            }
-          },
-          "1586767123172": {
-            "type": "pr",
-            "settings": {
-              "limit": 6,
-              "id_cat": "trending",
-              "column_pr": 4,
-              "pr_des": "1",
-              "show_vendor": false,
-              "pr_lay": "2",
-              "use_cdt": false,
-              "round_cd": false,
-              "cdt_des": "1",
-              "use_eq_height": false,
-              "image_ratio": "ratio_nt",
-              "image_size": "nt_cover",
-              "image_position": "8",
-              "col": "10"
-            }
-          },
-          "1585641227863": {
-            "type": "mega",
-            "settings": {
-              "title": "Shop",
-              "url": "https:\/\/kalles-demo.myshopify.com\/collections\/women\/?preview_theme_id=",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "New",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "center",
-              "wid": "cus",
-              "cus_wid": 950
-            }
-          },
-          "1586766954308": {
-            "type": "cat",
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "men",
-              "title": "",
-              "col": "4"
-            }
-          },
-          "1586767100450": {
-            "type": "mega",
-            "settings": {
-              "title": "Sale",
-              "url": "shopify:\/\/collections\/sale",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": true,
-              "cl": "#ec0101",
-              "lb": "Sale",
-              "lb_cl": "#ffa800",
-              "lazy_mn": true,
-              "pos": "center",
-              "wid": "cus",
-              "cus_wid": 1200
-            }
-          },
-          "ec1e6927-0210-49c0-9869-445dae47e1a3": {
-            "type": "list",
-            "settings": {
-              "title": "Demo",
-              "url": "https:\/\/kalles-demo.myshopify.com\/?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "center",
-              "wid": "cus",
-              "cus_wid": 1000,
-              "enable_cat": true,
-              "cat_design": "1",
-              "hoverz": true,
-              "cat_ratio": "ratio_adapt",
-              "cat_size": "nt_cover",
-              "cat_position": "8",
-              "enable_pr": true,
-              "pr_des": "1",
-              "show_vendor": false,
-              "use_cdt": false,
-              "round_cd": false,
-              "cdt_des": "1",
-              "use_eq_height": false,
-              "image_ratio": "ratio_nt",
-              "image_size": "nt_cover",
-              "image_position": "8"
             }
           }
         },
@@ -825,6 +825,18 @@
       "pr-sidebar": {
         "type": "pr-sidebar",
         "blocks": {
+          "pr-sidebar-0": {
+            "type": "shipping",
+            "settings": {
+              "title": "Shipping & Delivery",
+              "shipping_1": "truck,FREE SHIPPING,Free shipping for all US order",
+              "shipping_2": "headset,SUPPORT 24\/7,We support 24 hours a day",
+              "shipping_3": "exchange-alt,30 DAYS RETURN,You have 30 days to return",
+              "shipping_4": "",
+              "shipping_5": "",
+              "shipping_6": ""
+            }
+          },
           "pr-sidebar-1": {
             "type": "instagram",
             "settings": {
@@ -837,18 +849,6 @@
               "col_pr": "4",
               "col_pr_tb": "4",
               "col_pr_mb": "4"
-            }
-          },
-          "pr-sidebar-0": {
-            "type": "shipping",
-            "settings": {
-              "title": "Shipping & Delivery",
-              "shipping_1": "truck,FREE SHIPPING,Free shipping for all US order",
-              "shipping_2": "headset,SUPPORT 24\/7,We support 24 hours a day",
-              "shipping_3": "exchange-alt,30 DAYS RETURN,You have 30 days to return",
-              "shipping_4": "",
-              "shipping_5": "",
-              "shipping_6": ""
             }
           },
           "pr-sidebar-2": {
@@ -878,35 +878,11 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
-          "mb_nav-3": {
+          "mb_nav-0": {
             "type": "menu",
             "settings": {
-              "title": "Lookbook",
-              "url": "shopify:\/\/products\/analogue-resin-strap",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "mb_nav-2": {
-            "type": "menu",
-            "settings": {
-              "title": "Product",
-              "url": "shopify:\/\/products\/skin-sweatpans",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "1585642887352": {
-            "type": "menu",
-            "settings": {
-              "title": "Blog",
-              "url": "",
+              "title": "Demo",
+              "url": "https:\/\/kalles-demo.myshopify.com\/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -926,11 +902,11 @@
               "lb_cl": ""
             }
           },
-          "mb_nav-0": {
+          "mb_nav-2": {
             "type": "menu",
             "settings": {
-              "title": "Demo",
-              "url": "https:\/\/kalles-demo.myshopify.com\/?preview_theme_id=",
+              "title": "Product",
+              "url": "shopify:\/\/products\/skin-sweatpans",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -938,11 +914,16 @@
               "lb_cl": ""
             }
           },
-          "mb_nav-7": {
-            "type": "help",
+          "1585642902196": {
+            "type": "menu",
             "settings": {
-              "title": "Need help?",
-              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:claue@domain.com\">claue@domain.com<\/a>"
+              "title": "Sale",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
             }
           },
           "1585642908420": {
@@ -957,8 +938,32 @@
               "lb_cl": ""
             }
           },
-          "mb_nav-6": {
-            "type": "acc",
+          "mb_nav-3": {
+            "type": "menu",
+            "settings": {
+              "title": "Lookbook",
+              "url": "shopify:\/\/products\/analogue-resin-strap",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "1585642887352": {
+            "type": "menu",
+            "settings": {
+              "title": "Blog",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "mb_nav-4": {
+            "type": "wis",
             "settings": {
             }
           },
@@ -967,21 +972,16 @@
             "settings": {
             }
           },
-          "mb_nav-4": {
-            "type": "wis",
+          "mb_nav-6": {
+            "type": "acc",
             "settings": {
             }
           },
-          "1585642902196": {
-            "type": "menu",
+          "mb_nav-7": {
+            "type": "help",
             "settings": {
-              "title": "Sale",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
+              "title": "Need help?",
+              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:claue@domain.com\">claue@domain.com<\/a>"
             }
           },
           "mb_nav-8": {
@@ -1061,16 +1061,16 @@
       "footer_bot": {
         "type": "footer_bot",
         "blocks": {
-          "1581507855652": {
-            "type": "menu",
-            "settings": {
-              "menu": "footer"
-            }
-          },
           "1581507860120": {
             "type": "copy",
             "settings": {
               "text": "Copyright © [year] <span class=\"cp\">Kalles<\/span> all rights reserved. Powered by <a href=\"https:\/\/the4.co\">The4<\/a>"
+            }
+          },
+          "1581507855652": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer"
             }
           }
         },
@@ -1251,6 +1251,12 @@
               "link": ""
             }
           },
+          "1581912867486": {
+            "type": "filter",
+            "settings": {
+              "title": "Filter"
+            }
+          },
           "toolbar_mobile-1": {
             "type": "wish",
             "settings": {
@@ -1274,12 +1280,6 @@
             "settings": {
               "title": "Search"
             }
-          },
-          "1581912867486": {
-            "type": "filter",
-            "settings": {
-              "title": "Filter"
-            }
           }
         },
         "block_order": [
@@ -1297,8 +1297,8 @@
       "cart_widget": {
         "type": "cart_widget",
         "blocks": {
-          "cart_widget-3": {
-            "type": "btnc",
+          "cart_widget-0": {
+            "type": "price",
             "settings": {
             }
           },
@@ -1307,13 +1307,23 @@
             "settings": {
             }
           },
-          "cart_widget-5": {
-            "type": "btnmr",
+          "cart_widget-3": {
+            "type": "btnc",
             "settings": {
             }
           },
           "cart_widget-4": {
             "type": "btnck",
+            "settings": {
+            }
+          },
+          "cart_widget-5": {
+            "type": "btnmr",
+            "settings": {
+            }
+          },
+          "cart_widget-6": {
+            "type": "img",
             "settings": {
             }
           },
@@ -1323,16 +1333,6 @@
               "title": "Return To Shop",
               "url": "",
               "style": "primary tu"
-            }
-          },
-          "cart_widget-6": {
-            "type": "img",
-            "settings": {
-            }
-          },
-          "cart_widget-0": {
-            "type": "price",
-            "settings": {
             }
           }
         },
@@ -1359,19 +1359,6 @@
       "mb_cat": {
         "type": "mb_cat",
         "blocks": {
-          "1585642629333": {
-            "type": "cat",
-            "settings": {
-              "cat": "jewellry",
-              "title": "Jewellery",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "gem"
-            }
-          },
           "1585641915360": {
             "type": "cat",
             "settings": {
@@ -1383,6 +1370,19 @@
               "lb_cl": "#e91e63",
               "icons_op": "2",
               "icon": "female"
+            }
+          },
+          "1585642130935": {
+            "type": "cat",
+            "settings": {
+              "cat": "men",
+              "title": "Men’s Clothing",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "male"
             }
           },
           "1585642167981": {
@@ -1411,6 +1411,19 @@
               "icon": "glasses"
             }
           },
+          "1585642450066": {
+            "type": "cat",
+            "settings": {
+              "cat": "electric",
+              "title": "",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "camera-retro"
+            }
+          },
           "1585642600575": {
             "type": "cat",
             "settings": {
@@ -1422,6 +1435,32 @@
               "lb_cl": "#e91e63",
               "icons_op": "2",
               "icon": "shoe-prints"
+            }
+          },
+          "1585642629333": {
+            "type": "cat",
+            "settings": {
+              "cat": "jewellry",
+              "title": "Jewellery",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "gem"
+            }
+          },
+          "1585642644518": {
+            "type": "cat",
+            "settings": {
+              "cat": "footwear",
+              "title": "T-Shirt",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "tshirt"
             }
           },
           "1585642780875": {
@@ -1448,45 +1487,6 @@
               "lb_cl": "#e91e63",
               "icons_op": "2",
               "icon": "chair"
-            }
-          },
-          "1585642450066": {
-            "type": "cat",
-            "settings": {
-              "cat": "electric",
-              "title": "",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "camera-retro"
-            }
-          },
-          "1585642130935": {
-            "type": "cat",
-            "settings": {
-              "cat": "men",
-              "title": "Men’s Clothing",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "male"
-            }
-          },
-          "1585642644518": {
-            "type": "cat",
-            "settings": {
-              "cat": "footwear",
-              "title": "T-Shirt",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "tshirt"
             }
           }
         },
