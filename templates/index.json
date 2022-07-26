@@ -159,7 +159,7 @@
         "use_cdt": false,
         "round_cd": false,
         "cdt_des": "1",
-        "use_eq_height": false,
+        "use_eq_height": true,
         "image_ratio": "ratio_nt",
         "image_size": "nt_cover",
         "image_position": "8",
