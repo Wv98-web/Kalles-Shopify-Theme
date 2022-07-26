@@ -31,6 +31,7 @@
     "checkbox_mail": false,
     "link_mail": "",
     "wishlist_type": "1",
+    "enable_compe": false,
     "app_review": "1",
     "label_settings": "rounded",
     "use_sale_label": false,

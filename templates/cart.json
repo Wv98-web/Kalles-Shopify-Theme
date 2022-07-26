@@ -8,7 +8,7 @@
           "type": "1",
           "settings": {
             "title": "Shopping cart",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         }
       },
@@ -83,7 +83,7 @@
         "ajax_enable": true,
         "calc_ship": true,
         "show_note": true,
-        "show_rates": true,
+        "show_rates": false,
         "show_discount": true,
         "show_gift_wrap": true
       }
