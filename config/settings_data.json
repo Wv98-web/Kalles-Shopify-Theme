@@ -410,7 +410,7 @@
           "header_top-1": {
             "type": "text",
             "settings": {
-              "text": "Summer sale discount off <span class=\"cr\">50%<\/span>! <a href=\"\/collections\/trending\">Shop Now<\/a>",
+              "text": "Free Shipping! <a href=\"\/collections\/adidas\">Shop Now<\/a>",
               "hide": false,
               "col": "4"
             }
@@ -1010,9 +1010,20 @@
       "sidebar_shop2": {
         "type": "sidebar_shop2",
         "blocks": {
-          "sidebar_shop2-3": {
-            "type": "filters",
+          "sidebar_shop2-0": {
+            "type": "category",
             "settings": {
+              "title": "Product Categories",
+              "cat_source": "1",
+              "cat_link_list": "",
+              "count": true
+            }
+          },
+          "sidebar_shop2-1": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your brand",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
             }
           },
           "sidebar_shop2-2": {
@@ -1027,20 +1038,9 @@
               "shipping_6": ""
             }
           },
-          "sidebar_shop2-1": {
-            "type": "text",
+          "sidebar_shop2-3": {
+            "type": "filters",
             "settings": {
-              "title": "Talk about your brand",
-              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-            }
-          },
-          "sidebar_shop2-0": {
-            "type": "category",
-            "settings": {
-              "title": "Product Categories",
-              "cat_source": "1",
-              "cat_link_list": "",
-              "count": true
             }
           }
         },
