@@ -86,6 +86,13 @@
           "settings": {
             "class": "tc"
           }
+        },
+        "6469e95e-e05f-4f28-a463-4066b2649c21": {
+          "type": "tab_rivui",
+          "settings": {
+            "title": "Reviews",
+            "review_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -97,7 +104,8 @@
         "frm",
         "4087fb0a-0507-4032-8bd1-89980d7e479c",
         "meta",
-        "social"
+        "social",
+        "6469e95e-e05f-4f28-a463-4066b2649c21"
       ],
       "settings": {
         "pr_layout": "default",
