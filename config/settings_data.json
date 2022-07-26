@@ -13,7 +13,7 @@
     "use_rtl": true,
     "list_rtl": "ar",
     "backtop": "3",
-    "prevent_copying": true,
+    "prevent_copying": false,
     "falling_snow": false,
     "catalog_mode": false,
     "enable_toolbar": true,
