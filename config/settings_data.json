@@ -191,7 +191,7 @@
     "pr_swatch_setting": "1",
     "swatch_home_size": "small",
     "swatch_style_settings": "rounded",
-    "show_pr_size": true,
+    "show_pr_size": false,
     "show_size_type": "1",
     "size_ck": "",
     "min_qty": "0",
