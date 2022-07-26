@@ -7,7 +7,8 @@
         "cart_heading1": {
           "type": "1",
           "settings": {
-            "title": "Shopping cart"
+            "title": "Shopping cart",
+            "color": "#fff"
           }
         }
       },
@@ -31,23 +32,28 @@
       "blocks": {
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "tax": {
           "type": "tax",
-          "settings": {}
+          "settings": {
+          }
         },
         "agree": {
           "type": "agree",
-          "settings": {}
+          "settings": {
+          }
         },
         "btnck": {
           "type": "btnck",
-          "settings": {}
+          "settings": {
+          }
         },
         "btnmr": {
           "type": "btnmr",
-          "settings": {}
+          "settings": {
+          }
         },
         "img": {
           "type": "img",
@@ -59,7 +65,7 @@
           "type": "btn",
           "settings": {
             "title": "Return To Shop",
-            "url": "",
+            "url": "shopify:\/\/collections\/all-products",
             "style": "primary tu"
           }
         }
