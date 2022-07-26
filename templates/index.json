@@ -127,7 +127,7 @@
         "dot_color": "1",
         "layout": "nt_full",
         "cl_bg": "#efefef",
-        "mg": "",
+        "mg": ",,10px,",
         "pd": "",
         "mg_mb": "",
         "pd_mb": ""
