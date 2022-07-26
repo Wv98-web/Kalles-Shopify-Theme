@@ -137,7 +137,7 @@
           "type": "rivui",
           "settings": {
             "title": "Reviews",
-            "review_liquid": "{%- render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: true -%}"
+            "review_liquid": ""
           }
         }
       },
