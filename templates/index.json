@@ -134,6 +134,71 @@
         "pd_mb": ""
       }
     },
+    "1658815502a7268d2d": {
+      "type": "slideshow",
+      "blocks": {
+        "1658815502176a2162-0": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1800x800.png",
+            "image_mb": "shopify:\/\/shop_images\/540x792.png",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "",
+            "open_link": "_blank",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "1658815502176a2162-0"
+      ],
+      "settings": {
+        "se_height": "adapt",
+        "use_custom_h": "1",
+        "h_des": "600px",
+        "h_tb": "500px",
+        "h_mb": "350px",
+        "effect": "1",
+        "loop": true,
+        "autoplay": false,
+        "au_time": 6,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": true,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "layout": "nt_full",
+        "cl_bg": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "1658814543a4cd7f71": {
       "type": "banner",
       "blocks": {
@@ -583,6 +648,7 @@
   },
   "order": [
     "16357021760efbe511",
+    "1658815502a7268d2d",
     "1658814543a4cd7f71",
     "16588147018c512836",
     "165881397559f91f59",
