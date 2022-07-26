@@ -5,10 +5,10 @@
       "settings": {
         "shown": true,
         "parallax": false,
-        "color": "#000",
+        "color": "#878787",
         "color_txt": "#fff",
-        "overlay": 54,
-        "padding": 50,
+        "overlay": 100,
+        "padding": 15,
         "paddingmb": 50,
         "bg_pos": "center center",
         "bg_repeat": "no-repeat",
