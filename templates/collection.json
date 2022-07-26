@@ -32,7 +32,7 @@
       "settings": {
         "shown": true,
         "image": "shopify:\/\/shop_images\/1800x400.png",
-        "use_specify_image": false,
+        "use_specify_image": true,
         "parallax": false,
         "color": "rgba(0,0,0,0)",
         "overlay": 100,
