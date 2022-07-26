@@ -1,7 +1,7 @@
 {
   "current": {
-    "general_layout": "full_width",
-    "cus_w_bd": 1420,
+    "general_layout": "cus",
+    "cus_w_bd": 1200,
     "body_bg": "#fff",
     "body_bg_image": "",
     "body_bg_repeat": "default",
@@ -391,6 +391,9 @@
             "type": "cur",
             "settings": {
               "hide": false,
+              "show_location": false,
+              "url_location": "",
+              "open_link": "_self",
               "col": "4"
             }
           }
@@ -428,7 +431,7 @@
               "title": "Demo",
               "url": "https:\/\/kalles-demo.myshopify.com\/?preview_theme_id=",
               "open_link": "_self",
-              "menu": "demo-group",
+              "menu": "",
               "col": "3",
               "icon": "",
               "cus_cl": false,
@@ -480,7 +483,7 @@
               "tt_hd": "SHOP PAGES",
               "url": "https:\/\/kalles-demo.myshopify.com\/collections\/women\/?preview_theme_id=",
               "open_link": "_self",
-              "menu": "shop-4",
+              "menu": "",
               "col": "2"
             }
           },
@@ -490,14 +493,13 @@
               "tt_hd": "FEATURES",
               "url": "https:\/\/kalles-demo.myshopify.com\/collections\/women\/?preview_theme_id=",
               "open_link": "_self",
-              "menu": "shop-3",
+              "menu": "",
               "col": "2"
             }
           },
           "1585641269506": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/15741519047383fd7cdfb6f95590dd5fd7b362a7d3.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "women",
@@ -508,7 +510,6 @@
           "1586766954308": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/pr9-1.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "men",
@@ -522,7 +523,7 @@
               "title": "Product",
               "url": "https:\/\/kalles-demo.myshopify.com\/collections\/trending\/products\/blush-beanie\/?preview_theme_id=",
               "open_link": "_self",
-              "menu": "product-groupt",
+              "menu": "",
               "col": "3",
               "icon": "",
               "cus_cl": false,
@@ -572,7 +573,7 @@
             "type": "link2",
             "settings": {
               "col": "2",
-              "menu": "categories-2"
+              "menu": ""
             }
           },
           "1586767123172": {
@@ -600,7 +601,7 @@
               "title": "Portfolio",
               "url": "https:\/\/kalles-demo.myshopify.com\/blogs\/portfolio\/?preview_theme_id=",
               "open_link": "_self",
-              "menu": "portfolio",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -616,7 +617,7 @@
               "title": "Lookbook",
               "url": "https:\/\/kalles-demo.myshopify.com\/blogs\/life-style\/the-easiest-way-to-break-out-on-top-1\/?preview_theme_id=",
               "open_link": "_self",
-              "menu": "lookbook",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -632,7 +633,7 @@
               "title": "Blog",
               "url": "shopify:\/\/blogs\/life-style",
               "open_link": "_self",
-              "menu": "blog",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -673,7 +674,6 @@
             "settings": {
               "align": "tl_md",
               "align_mb": "tl",
-              "image": "shopify:\/\/shop_images\/kalles_2x_d285afa0-dcc0-4663-80cc-93478c8881de.png",
               "logo_width": 95,
               "title": "Get in touch",
               "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>184 Main Rd E, St Albans <br> <span class=\"pl__30\">VIC 3021, Australia<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:contact@company.com\">contact@company.com<\/a><\/span><\/p><p><i class=\"pegk pe-7s-call\"><\/i> <span>+001 2233 456 <\/span><\/p>",
@@ -688,7 +688,7 @@
             "type": "menu",
             "settings": {
               "title": "Categories",
-              "menu": "categories",
+              "menu": "",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -699,7 +699,7 @@
             "type": "menu",
             "settings": {
               "title": "Infomation",
-              "menu": "infomation",
+              "menu": "",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -710,7 +710,7 @@
             "type": "menu",
             "settings": {
               "title": "Useful links",
-              "menu": "useful-links",
+              "menu": "",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
@@ -725,7 +725,6 @@
               "title": "Newsletter Signup",
               "sub_title": "Subscribe to our newsletter and get 10% off your first purchase",
               "source": "1",
-              "image": "shopify:\/\/shop_images\/payment2_3771ea04-fdc1-47f9-8536-84ec37d21957.png",
               "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
               "height": 30,
               "order": "1",
@@ -797,28 +796,32 @@
         "blocks": {
           "cart_widget-0": {
             "type": "price",
-            "settings": {}
+            "settings": {
+            }
           },
           "cart_widget-2": {
             "type": "agree",
-            "settings": {}
+            "settings": {
+            }
           },
           "cart_widget-3": {
             "type": "btnc",
-            "settings": {}
+            "settings": {
+            }
           },
           "cart_widget-4": {
             "type": "btnck",
-            "settings": {}
+            "settings": {
+            }
           },
           "cart_widget-5": {
             "type": "btnmr",
-            "settings": {}
+            "settings": {
+            }
           },
           "cart_widget-6": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/trust_img2.png"
             }
           },
           "cart_widget-7": {
@@ -859,7 +862,7 @@
               "title": "Demo",
               "url": "https:\/\/kalles-demo.myshopify.com\/?preview_theme_id=",
               "open_link": "_self",
-              "menu": "demo",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -871,7 +874,7 @@
               "title": "Shop",
               "url": "shopify:\/\/collections\/trending",
               "open_link": "_self",
-              "menu": "shop",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -883,7 +886,7 @@
               "title": "Product",
               "url": "shopify:\/\/products\/skin-sweatpans",
               "open_link": "_self",
-              "menu": "product-detail-features",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -907,7 +910,7 @@
               "title": "Portfolio",
               "url": "shopify:\/\/blogs\/portfolio",
               "open_link": "_self",
-              "menu": "portfolio",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -919,7 +922,7 @@
               "title": "Lookbook",
               "url": "shopify:\/\/products\/analogue-resin-strap",
               "open_link": "_self",
-              "menu": "lookbook",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -939,15 +942,18 @@
           },
           "mb_nav-4": {
             "type": "wis",
-            "settings": {}
+            "settings": {
+            }
           },
           "mb_nav-5": {
             "type": "sea",
-            "settings": {}
+            "settings": {
+            }
           },
           "mb_nav-6": {
             "type": "acc",
-            "settings": {}
+            "settings": {
+            }
           },
           "mb_nav-7": {
             "type": "help",
@@ -958,7 +964,8 @@
           },
           "mb_nav-8": {
             "type": "cur",
-            "settings": {}
+            "settings": {
+            }
           }
         },
         "block_order": [
@@ -975,7 +982,8 @@
           "mb_nav-7",
           "mb_nav-8"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "mb_cat": {
         "type": "mb_cat",
@@ -1123,7 +1131,8 @@
           "1585642780875",
           "1585642798957"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "toolbar_mobile": {
         "type": "toolbar_mobile",
@@ -1253,7 +1262,8 @@
           "1581913909406",
           "1581913174211"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "sticky_atc": {
         "type": "sticky_atc",
@@ -1452,6 +1462,8 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   }
 }
