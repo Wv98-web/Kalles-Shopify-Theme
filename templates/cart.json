@@ -42,6 +42,7 @@
         },
         "agree": {
           "type": "agree",
+          "disabled": true,
           "settings": {
           }
         },
