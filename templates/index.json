@@ -7,6 +7,7 @@
           "type": "img",
           "settings": {
             "image": "shopify:\/\/shop_images\/1800x800.png",
+            "image_mb": "shopify:\/\/shop_images\/540x475.png",
             "pos_img": "center center",
             "cl_img": "rgba(0,0,0,0)",
             "link_img1": "",
