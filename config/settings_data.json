@@ -28,7 +28,7 @@
     "ajax_klaviyo": true,
     "action_mailchimp": "",
     "ajax_mailChimp": true,
-    "checkbox_mail": true,
+    "checkbox_mail": false,
     "link_mail": "terms-of-service",
     "wishlist_type": "1",
     "enable_compe": false,
