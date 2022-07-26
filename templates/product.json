@@ -151,8 +151,16 @@
             "title": "Description"
           }
         },
+        "27eaf83b-4dcc-4675-b748-3180daaa6f69": {
+          "type": "html",
+          "settings": {
+            "title": "Delivery & Returns",
+            "page": "delivery-returns"
+          }
+        },
         "add": {
           "type": "add",
+          "disabled": true,
           "settings": {
             "title": "Size chat"
           }
@@ -167,6 +175,7 @@
       },
       "block_order": [
         "des",
+        "27eaf83b-4dcc-4675-b748-3180daaa6f69",
         "add",
         "rivui"
       ],
