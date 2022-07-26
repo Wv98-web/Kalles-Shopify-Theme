@@ -130,7 +130,7 @@
         "add": {
           "type": "add",
           "settings": {
-            "title": "Additional Information"
+            "title": "Size chat"
           }
         },
         "rivui": {
@@ -139,19 +139,12 @@
             "title": "Reviews",
             "review_liquid": ""
           }
-        },
-        "c738043b-bce4-4c87-8c70-a757c3639c68": {
-          "type": "size_pr",
-          "settings": {
-            "title": "Size guide"
-          }
         }
       },
       "block_order": [
         "des",
         "add",
-        "rivui",
-        "c738043b-bce4-4c87-8c70-a757c3639c68"
+        "rivui"
       ],
       "settings": {
         "des_pr_design": "1",
