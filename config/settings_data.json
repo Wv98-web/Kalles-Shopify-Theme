@@ -179,7 +179,7 @@
     "des_btns_pr": "2 pos_pr_btmt4",
     "price_format": "1",
     "show_pr_img": "2",
-    "hover_img": "2",
+    "hover_img": "1",
     "pr_overlay": 10,
     "use_quickshop": true,
     "use_buy_qs": false,
