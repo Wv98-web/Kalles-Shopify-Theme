@@ -328,7 +328,7 @@
         "ic_tt": "gem",
         "show_clpr": false,
         "cat_layout": "1",
-        "hoverz": true,
+        "hoverz": false,
         "cat_design": "1",
         "cat_space": "0",
         "pr_txt": "products",
