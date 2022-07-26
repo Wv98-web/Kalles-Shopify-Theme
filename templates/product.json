@@ -21,7 +21,6 @@
         },
         "des": {
           "type": "des",
-          "disabled": true,
           "settings": {
             "des": "2",
             "text": "",
