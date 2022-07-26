@@ -133,20 +133,21 @@
         "pd_mb": ""
       }
     },
-    "1581993333344": {
-      "type": "featured_collection_owl",
+    "1658809373b3e01cfc": {
+      "type": "featured_collection",
       "settings": {
         "title": "TRENDING",
         "sub_title": "Top view in this week",
-        "sub_font": "2",
+        "sub_font": "1",
         "btn_title": "See all products",
         "style_title": "title_2",
         "ic_tt": "gem",
         "show_clpr": false,
-        "collection": "adidas",
+        "collection": "all-products",
         "limit": 8,
-        "space": 30,
+        "space": 20,
         "use_pagination": "none",
+        "use_bar_lm": true,
         "btn_rd": true,
         "btn_icon": false,
         "btn_style": "default",
@@ -158,26 +159,16 @@
         "use_cdt": false,
         "round_cd": false,
         "cdt_des": "1",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "button": true,
-        "btn_vi": "2",
-        "btn_owl": "1",
-        "btn_color": "0",
-        "dot": false,
-        "dot_owl": "1",
-        "dot_color": "1",
         "use_eq_height": false,
         "image_ratio": "ratio_nt",
         "image_size": "nt_cover",
         "image_position": "8",
         "cp_code": false,
-        "layout": "container",
+        "layout": "wrap",
         "cl_bg": "",
-        "mg": ",,90px,",
+        "mg": "50px,,50px,",
         "pd": "",
-        "mg_mb": ",60px,",
+        "mg_mb": "",
         "pd_mb": ""
       }
     },
@@ -363,7 +354,7 @@
   },
   "order": [
     "16357021760efbe511",
-    "1581993333344",
+    "1658809373b3e01cfc",
     "16357041768f51742b"
   ]
 }
