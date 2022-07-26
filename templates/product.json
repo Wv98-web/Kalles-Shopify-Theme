@@ -81,10 +81,18 @@
             "show_tag_product": false
           }
         },
-        "social": {
-          "type": "social",
+        "441fc714-87d8-4934-9acf-f6be1e864b24": {
+          "type": "tab_des",
           "settings": {
-            "class": "tc"
+            "title": "Description"
+          }
+        },
+        "c464ec68-4bbb-404a-bf95-f0a9c106f40c": {
+          "type": "tab",
+          "settings": {
+            "title": "Collapsible tab",
+            "content": "",
+            "page": "delivery-returns"
           }
         },
         "6469e95e-e05f-4f28-a463-4066b2649c21": {
@@ -92,6 +100,12 @@
           "settings": {
             "title": "Reviews",
             "review_liquid": ""
+          }
+        },
+        "social": {
+          "type": "social",
+          "settings": {
+            "class": "tc"
           }
         }
       },
@@ -104,8 +118,10 @@
         "frm",
         "4087fb0a-0507-4032-8bd1-89980d7e479c",
         "meta",
-        "social",
-        "6469e95e-e05f-4f28-a463-4066b2649c21"
+        "441fc714-87d8-4934-9acf-f6be1e864b24",
+        "c464ec68-4bbb-404a-bf95-f0a9c106f40c",
+        "6469e95e-e05f-4f28-a463-4066b2649c21",
+        "social"
       ],
       "settings": {
         "pr_layout": "default",
