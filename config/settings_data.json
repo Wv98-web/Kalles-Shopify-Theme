@@ -67,7 +67,7 @@
     "h_chan_space": true,
     "h_navmb": 62,
     "mb_cat": true,
-    "bgnav": "rgba(0,0,0,0)",
+    "bgnav": "#ffffff",
     "opnav": 100,
     "clnav": "#222222",
     "bgnavst": "#ffffff",
