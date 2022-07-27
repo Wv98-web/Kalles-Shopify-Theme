@@ -128,7 +128,7 @@
         "design_products": "1",
         "size_img_pr": "3",
         "nav_img_pr": "large",
-        "use_sticky_des": false,
+        "use_sticky_des": true,
         "ratio_img_main": "ratio_nt",
         "img_size_main": "nt_contain",
         "img_pos_main": "8",
