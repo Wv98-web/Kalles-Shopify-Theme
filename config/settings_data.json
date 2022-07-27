@@ -71,7 +71,7 @@
     "opnav": 100,
     "clnav": "#222222",
     "bgnavst": "#ffffff",
-    "opnavst": 100,
+    "opnavst": 30,
     "clnavst": "#222222",
     "bgnavtr": "#000000",
     "opnavtr": 40,
