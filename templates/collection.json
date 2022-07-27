@@ -36,7 +36,7 @@
         "parallax": false,
         "color": "rgba(0,0,0,0)",
         "overlay": 100,
-        "padding": 15,
+        "padding": 100,
         "paddingmb": 50,
         "bg_pos": "center center",
         "bg_repeat": "no-repeat",
