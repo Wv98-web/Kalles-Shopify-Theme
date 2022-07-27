@@ -80,7 +80,7 @@
         "pr_des": "1 tc",
         "show_vendor": false,
         "breadcrumb_pr": true,
-        "use_cdt": false,
+        "use_cdt": true,
         "round_cd": false,
         "cdt_des": "1",
         "use_eq_height": true,
