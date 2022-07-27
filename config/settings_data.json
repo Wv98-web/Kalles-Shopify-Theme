@@ -2,7 +2,7 @@
   "current": {
     "general_layout": "full_width",
     "cus_w_bd": 1200,
-    "body_bg": "#fff",
+    "body_bg": "rgba(0,0,0,0)",
     "body_bg_image": "",
     "body_bg_repeat": "default",
     "body_bg_size": "default",
