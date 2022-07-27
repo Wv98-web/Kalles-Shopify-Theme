@@ -1225,7 +1225,7 @@
       "header_banner": {
         "type": "header_banner",
         "settings": {
-          "link": "shopify:\/\/collections\/sale",
+          "link": "shopify:\/\/collections\/all-products",
           "text": "Today deal sale off <strong>70% <\/strong>. End in [countdown].  Hurry Up <i class=\"las la-arrow-right\"><\/i>",
           "countdown": "2021\/04\/19",
           "dayx": 4,
