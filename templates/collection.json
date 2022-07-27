@@ -71,7 +71,7 @@
         "shop_layout": "default",
         "shop_des": "default",
         "limit": 12,
-        "space": 30,
+        "space": 50,
         "use_pagination": "infinite",
         "use_bar_lm": false,
         "col_pr": "3",
