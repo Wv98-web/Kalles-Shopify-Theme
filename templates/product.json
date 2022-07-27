@@ -144,6 +144,7 @@
     },
     "product-description": {
       "type": "pr_description",
+      "disabled": true,
       "blocks": {
         "des": {
           "type": "des",
