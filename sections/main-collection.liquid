@@ -1,3 +1,9 @@
+<script>
+  // https://wuwei01.myshopify.com/collections/men#productId=6729544630481
+  const { hash } = window.location;
+  const productId = hash.split("=")[1];
+</script>
+
 {%- liquid
 assign hidden_cat = settings.use_hidden_cat
 assign type_filters = settings.type_filters
@@ -361,14 +367,6 @@ endif -%}
 
 {%- endif -%}
 {%- endpaginate -%}
-
-<script>
-  // https://wuwei01.myshopify.com/collections/men#productId=6729544630481
-  const { hash } = window.location;
-  console.log(hash, 'hash')
-  const productId = hash.split("=")[1];
-  console.log(productId, 'productId')
-</script>
 
 {%- schema -%}
   {
