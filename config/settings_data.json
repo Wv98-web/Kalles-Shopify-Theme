@@ -1124,7 +1124,7 @@
           "image_position": "8",
           "index": true,
           "product": false,
-          "collection": false,
+          "collection": true,
           "article": false,
           "blog": false,
           "cart": false,
