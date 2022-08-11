@@ -366,6 +366,8 @@ endif -%}
   // https://wuwei01.myshopify.com/collections/men#productId=6729544630481
   const { hash } = window.location;
   console.log(hash, 'hash')
+  const productId = hash.split("=")[1];
+  console.log(productId, 'productId')
 </script>
 
 {%- schema -%}
