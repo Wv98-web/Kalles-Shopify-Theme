@@ -3,6 +3,7 @@
   assign pr_id = product.id
   assign pr_options = product.options_with_values
   assign show_size = settings.show_pr_size
+  assign recommend = product.metafields.meta.recommend
   assign color_count = 0
   assign size_count = 0
   if pr_options.size > 0 and show_color or show_size
