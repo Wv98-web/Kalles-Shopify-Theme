@@ -1129,7 +1129,7 @@
           "blog": false,
           "cart": false,
           "page": false,
-          "day_next": 1
+          "day_next": 0
         }
       },
       "sales_popup": {
