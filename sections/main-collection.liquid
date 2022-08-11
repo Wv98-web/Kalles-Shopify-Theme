@@ -1,16 +1,3 @@
-<script>
-  // https://wuwei01.myshopify.com/collections/men#productId=6729544630481
-  const { hash } = window.location;
-  const productId = hash.split("=")[1];
-
-  var product = document.querySelectorAll('.product');
-  console.log(product, 'product')
-  product.forEach((element)=>{
-    var pr_id = element.getAttribute('data-pr_id')
-    console.log(pr_id, 'pr_id')
-  })
-</script>
-
 {%- liquid
 assign hidden_cat = settings.use_hidden_cat
 assign type_filters = settings.type_filters
