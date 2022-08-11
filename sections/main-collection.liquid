@@ -4,7 +4,7 @@
   const productId = hash.split("=")[1];
 
   var product = document.querySelectorAll('product');
-  product.map((element)=>{
+  product.forEach((element)=>{
     var pr_id = element.getAttribute('data-pr_id')
     console.log(pr_id, 'pr_id')
   })
