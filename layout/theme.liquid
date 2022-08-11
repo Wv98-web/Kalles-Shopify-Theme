@@ -65,12 +65,7 @@
     const { hash } = window.location;
     const productId = hash.split("=")[1];
 
-    var product = document.querySelectorAll('.product');
-    console.log(product, 'product')
-    product.forEach((element) => {
-      var pr_id = element.getAttribute('data-pr_id')
-      console.log(pr_id, 'pr_id')
-    })
+    console.log($(document))
   </script>
 </body>
 </html>
