@@ -364,7 +364,8 @@ endif -%}
 
 <script>
   // https://wuwei01.myshopify.com/collections/men#productId=6729544630481
-  console.log(window.location, 'location')
+  const { hash } = window.location;
+  console.log(hash, 'hash')
 </script>
 
 {%- schema -%}
