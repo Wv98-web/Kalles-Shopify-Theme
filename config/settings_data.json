@@ -1108,7 +1108,7 @@
           "use_cdt": true,
           "round_cd": false,
           "cdt_des": "1",
-          "loop": true,
+          "loop": false,
           "au_time": 0,
           "au_hover": true,
           "button": true,
@@ -1129,7 +1129,7 @@
           "blog": false,
           "cart": false,
           "page": false,
-          "day_next": 0
+          "day_next": 1
         }
       },
       "sales_popup": {
