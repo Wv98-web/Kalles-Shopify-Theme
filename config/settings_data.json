@@ -1673,6 +1673,70 @@
           "time_delay": 2,
           "scroll_delay": 500
         }
+      },
+      "wis_heading": {
+        "type": "wis_heading",
+        "blocks": {
+          "wis_heading-0": {
+            "type": "2",
+            "settings": {
+              "text": "<p>View your wishlist products<\/p>",
+              "color": "#ededed"
+            }
+          }
+        },
+        "block_order": [
+          "wis_heading-0"
+        ],
+        "settings": {
+          "parallax": false,
+          "color": "#000",
+          "overlay": 54,
+          "padding": 50,
+          "paddingmb": 50,
+          "bg_pos": "center center",
+          "bg_repeat": "no-repeat",
+          "bg_size": "cover",
+          "bg_att": "scroll"
+        }
+      },
+      "wishlist_page": {
+        "type": "wishlist_page",
+        "blocks": {
+          "wishlist_page-0": {
+            "type": "btn",
+            "settings": {
+              "title": "Return To Shop",
+              "url": "",
+              "style": "primary tu"
+            }
+          }
+        },
+        "block_order": [
+          "wishlist_page-0"
+        ],
+        "settings": {
+          "shop_layout": "default",
+          "show_col_switch": true,
+          "limit": 12,
+          "space": 20,
+          "use_pagination": "default",
+          "use_bar_lm": true,
+          "btn_rd": true,
+          "btn_style": "default",
+          "col_pr": "3",
+          "col_pr_tb": "3",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8"
+        }
       }
     },
     "content_for_index": [
