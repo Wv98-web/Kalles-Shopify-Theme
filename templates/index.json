@@ -1,44 +1,5 @@
 {
   "sections": {
-    "1660897799c4829872": {
-      "type": "CouponPupop",
-      "blocks": {
-        "7f9649c6-11c2-4f5e-8b21-ea2f4bca3103": {
-          "type": "content",
-          "settings": {
-            "title": "Sign up our newsletter and save 25% off for the next purchase!",
-            "sub": "Subscribe to our newsletters and don’t miss new arrivals, the latest fashion updates and our promotions.",
-            "newl_des": "1",
-            "btn_icon": false,
-            "txt": "Your Information will never be shared with any third party.",
-            "btn_ck": true,
-            "txt2": "Do not show it anymore."
-          }
-        }
-      },
-      "block_order": [
-        "7f9649c6-11c2-4f5e-8b21-ea2f4bca3103"
-      ],
-      "settings": {
-        "des": "2",
-        "fix_h": false,
-        "fix_h_mb": false,
-        "mb": false,
-        "index": true,
-        "product": false,
-        "collection": false,
-        "article": false,
-        "blog": false,
-        "cart": false,
-        "page": false,
-        "number_pages": 0,
-        "pp_version": 1,
-        "day_next": 7,
-        "after": "scroll",
-        "time_delay": 2,
-        "scroll_delay": 800
-      }
-    },
     "16357021760efbe511": {
       "type": "slideshow",
       "blocks": {
@@ -621,7 +582,6 @@
     }
   },
   "order": [
-    "1660897799c4829872",
     "16357021760efbe511",
     "1658814543a4cd7f71",
     "16588147018c512836",
