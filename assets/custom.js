@@ -9,6 +9,7 @@ jQuery_T4NT(document).ready(function ($) {
 
 function CouponPupop() {
   var showPopup = function () {
+    console.log('123')
     $.magnificPopup.open({
       items: {
         src: '.coupon_pupop_content'
