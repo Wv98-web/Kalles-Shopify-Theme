@@ -2107,7 +2107,6 @@ jQuery_T4NT(document).ready(function($) {
   
   geckoShopify.MenuhoverIntent();
   geckoShopify.NewsletterPopup();
-  geckoShopify.CouponPopup();
   geckoShopify.ageVerify();
   geckoShopify.cookiesLawPP();
   geckoShopify.PromoPrPopup();
