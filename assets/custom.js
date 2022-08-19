@@ -9,14 +9,14 @@ jQuery_T4NT(document).ready(function ($) {
 
 function CouponPupop() {
   if (
-    $('.popup_new_wrap').length == 0 ||
+    $('.coupon_new_wrap').length == 0 ||
     ($('.mobile_new_false').length > 0 && $(window).width() < 768) ||
     (Cookies.get('kalles_age_verify') != 'confirmed' &&
       $('.popup_age_wrap').length > 0)
   )
     return;
   console.log('123')
-  var popup = $('.popup_new_wrap'),
+  var popup = $('.coupon_new_wrap'),
     stt = popup.data('stt'),
     pp_version = stt.pp_version,
     shown = false,
@@ -25,7 +25,7 @@ function CouponPupop() {
   var showPopup = function () {
     $.magnificPopup.open({
       items: {
-        src: '#shopify-section-newsletter_pp .popup_new_wrap'
+        src: '#shopify-section-newsletter_pp .coupon_new_wrap'
       },
       type: 'inline',
       removalDelay: 500, //delay removal by X to allow out-animation
