@@ -1634,6 +1634,7 @@
           "newsletter_pp-0": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/360x360.png"
             }
           },
           "newsletter_pp-1": {
@@ -1642,9 +1643,9 @@
               "title": "Sign up our newsletter and save 25% off for the next purchase!",
               "sub": "Subscribe to our newsletters and don’t miss new arrivals, the latest fashion updates and our promotions.",
               "newl_des": "1",
-              "btn_icon": false,
+              "btn_icon": true,
               "txt": "Your Information will never be shared with any third party.",
-              "btn_ck": true,
+              "btn_ck": false,
               "txt2": "Do not show it anymore."
             }
           }
@@ -1668,7 +1669,7 @@
           "number_pages": 0,
           "pp_version": 1,
           "day_next": 0,
-          "after": "time",
+          "after": "scroll",
           "time_delay": 2,
           "scroll_delay": 500
         }
