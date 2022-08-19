@@ -1755,7 +1755,7 @@
               // }
           };
 
-          $('.kalles_open_newsletter').on('click', function (e) {
+          $('.kalles_open_coupon').on('click', function (e) {
             e.preventDefault();
             showPopup2();
           });
