@@ -41,9 +41,9 @@
       {%- assign collection = collections[se_stts.collection] -%}
       <div class="tc mt__40">
         {%- if se_stts.btn_style == 'shadow' -%}
-        <a class="pr nt_cat_lm button view_more js_add_loading button_{{se_stts.btn_style}} btn_icon_{{se_stts.btn_icon}}" href="{{ collection.url }}">{{ 'products.grid_items.view_more' | t }}</a>  
+        <a class="pr nt_cat_lm button js_add_loading button_{{se_stts.btn_style}} btn_icon_{{se_stts.btn_icon}}" href="{{ collection.url }}">{{ 'products.grid_items.view_more' | t }}</a>  
         {%- else -%}
-        <a class="pr button view_more js_add_loading button_{{se_stts.btn_style}} br_rd_{{se_stts.btn_rd}} btn_icon_{{se_stts.btn_icon}}" href="{{ collection.url }}">{{ 'products.grid_items.view_more' | t }}</a>
+        <a class="pr button js_add_loading button_{{se_stts.btn_style}} br_rd_{{se_stts.btn_rd}} btn_icon_{{se_stts.btn_icon}}" href="{{ collection.url }}">{{ 'products.grid_items.view_more' | t }}</a>
         {%- endif -%}
       </div>
       {%- endif -%}
