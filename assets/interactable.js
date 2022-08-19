@@ -1763,7 +1763,7 @@
           popup.on('open_newsletter', function () {
             showPopup2();
           });
-          //$('.popup_new_wrap').trigger('open_newsletter');
+          $('.coupon_new_wrap').trigger('open_newsletter');
           
           if (designMode) return;
 
