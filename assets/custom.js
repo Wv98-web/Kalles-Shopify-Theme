@@ -15,7 +15,6 @@ function CouponPupop() {
       $('.popup_age_wrap').length > 0)
   )
     return;
-  console.log('123')
   var popup = $('.coupon_new_wrap'),
     stt = popup.data('stt'),
     pp_version = stt.pp_version,
@@ -23,6 +22,7 @@ function CouponPupop() {
     pages = Cookies.get('kalles_shown_pages');
 
   var showPopup = function () {
+    console.log('123')
     $.magnificPopup.open({
       items: {
         src: '#shopify-section-newsletter_pp .coupon_new_wrap'
