@@ -57,6 +57,7 @@ function CouponPupop() {
   };
 
   var showPopup2 = function () {
+    console.log($.magnificPopup, 'magnificPopup')
     if ($.magnificPopup.instance.isOpen) {
       $.magnificPopup.close();
       setTimeout(function () {
