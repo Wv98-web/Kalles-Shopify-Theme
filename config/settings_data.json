@@ -1690,7 +1690,7 @@
         ],
         "settings": {
           "parallax": false,
-          "color": "#000",
+          "color": "#000000",
           "overlay": 54,
           "padding": 50,
           "paddingmb": 50,
@@ -1718,7 +1718,7 @@
         "settings": {
           "shop_layout": "default",
           "show_col_switch": true,
-          "limit": 12,
+          "limit": 8,
           "space": 20,
           "use_pagination": "default",
           "use_bar_lm": true,
