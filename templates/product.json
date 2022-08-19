@@ -214,7 +214,7 @@
         "use_cdt": false,
         "round_cd": false,
         "cdt_des": "1",
-        "collection": "hot-sale",
+        "collection": "all-products",
         "use_pagination": "view-all",
         "btn_rd": false,
         "btn_icon": false,
