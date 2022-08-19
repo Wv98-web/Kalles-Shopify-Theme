@@ -15,6 +15,7 @@ function CouponPupop() {
       $('.popup_age_wrap').length > 0)
   )
     return;
+  console.log('123')
   var popup = $('.popup_new_wrap'),
     stt = popup.data('stt'),
     pp_version = stt.pp_version,
