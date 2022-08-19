@@ -155,7 +155,7 @@
     "shop_filters": false,
     "pop_style": "pop_default",
     "main_click": "zoom",
-    "zoom_tp": "1",
+    "zoom_tp": "2",
     "pswp_tp": "light",
     "show_zoom_img": true,
     "pr_curent": "3",
