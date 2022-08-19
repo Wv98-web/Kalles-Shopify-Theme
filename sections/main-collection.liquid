@@ -312,7 +312,6 @@ endif -%}
                         {%- for product in collection.products -%}{% capture col %}{% cycle '3','6','3','3','3','3','3','3','3','6','3','3','3' %}{% endcapture %}{%- render 'pr_loop_grid_1',product:product, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}{%- endfor -%}
                         </div>
                       {%- else -%}
-                        <!-- default -->
                         <div data-change-url data-filterntt4='{"paginate_ntt4":"{{use_pagination}}","limit_ntt4":"{{limitstt}}","use_bar_lmntt4":"{{use_bar_lm}}"}' data-attrsntt4='{"paginate_ntt4":"{{cart.attributes.paginate_ntt4}}","limit_ntt4":"{{cart.attributes.limit_ntt4}}","use_bar_lmntt4":"{{cart.attributes.use_bar_lmntt4}}"}' class="on_list_view_{{on_list_view}} products nt_products_holder row fl_center row_pr_{{inc_pr}} cdt_des_{{se_settings.cdt_des}} round_cd_{{se_settings.round_cd}} {{se_settings.image_size}} {{se_settings.image_ratio}} position_{{se_settings.image_position}} space_{{se_settings.space}}{% if sett_equal %} equal_nt{% endif %} nt_default">
                          
                          {%- if show_list_switch %}{% if inc_pr == '2' %}{% assign inc_pr= '2 tc' %}{% endif -%}
