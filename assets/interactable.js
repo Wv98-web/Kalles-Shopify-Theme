@@ -1704,8 +1704,8 @@
 
       geckoShopify.CouponPopup = function () {
 
-        if ($('.coupon_new_wrap').length == 0 || ($('.mobile_new_false').length > 0 && $(window).width() < 768) || (Cookies.get('kalles_age_verify') != 'confirmed' && $('.popup_age_wrap').length > 0) ) return;
-        var popup = $('.coupon_new_wrap'),
+        if ($('.popup_new_wrap').length == 0 || ($('.mobile_new_false').length > 0 && $(window).width() < 768) || (Cookies.get('kalles_age_verify') != 'confirmed' && $('.popup_age_wrap').length > 0) ) return;
+        var popup = $('.popup_new_wrap'),
           stt = popup.data('stt'),
           pp_version = stt.pp_version,
           shown = false,
@@ -1714,7 +1714,7 @@
           var showPopup = function () {
             $.magnificPopup.open({
               items: {
-                src: '#shopify-section-newsletter_pp .coupon_new_wrap'
+                src: '#shopify-section-newsletter_pp .popup_new_wrap'
               },
               type: 'inline',
               removalDelay: 500, //delay removal by X to allow out-animation
@@ -2106,7 +2106,7 @@
 jQuery_T4NT(document).ready(function($) {
   
   geckoShopify.MenuhoverIntent();
-  geckoShopify.NewsletterPopup();
+  // geckoShopify.NewsletterPopup();
   geckoShopify.CouponPopup();
   geckoShopify.ageVerify();
   geckoShopify.cookiesLawPP();
