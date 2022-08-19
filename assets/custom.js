@@ -7,7 +7,8 @@ jQuery_T4NT(document).ready(function ($) {
   });
 });
 
-function CouponPupop() {
+function CouponPupop () {
+  console.log(geckoShopify)
   if (
     $('.coupon_new_wrap').length == 0 ||
     ($('.mobile_new_false').length > 0 && $(window).width() < 768) ||
