@@ -16,18 +16,10 @@
           "settings": {
             "color": "#ffffff"
           }
-        },
-        "b9fa77af-4041-42da-b41c-1df6ade5dbbd": {
-          "type": "2",
-          "disabled": true,
-          "settings": {
-            "color": "#ededed"
-          }
         }
       },
       "block_order": [
-        "cc30e06b-26b5-4d95-8a6d-a3c0ba6bb5b1",
-        "b9fa77af-4041-42da-b41c-1df6ade5dbbd"
+        "cc30e06b-26b5-4d95-8a6d-a3c0ba6bb5b1"
       ],
       "settings": {
         "shown": true,
