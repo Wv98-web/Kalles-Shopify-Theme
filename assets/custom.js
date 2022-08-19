@@ -11,7 +11,7 @@ function CouponPupop() {
   var showPopup = function () {
     $.magnificPopup.open({
       items: {
-        src: '.coupon_pupop'
+        src: '.coupon_pupop_content'
       },
       type: 'inline',
       removalDelay: 500, //delay removal by X to allow out-animation
