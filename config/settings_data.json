@@ -17,7 +17,7 @@
     "falling_snow": false,
     "catalog_mode": false,
     "enable_toolbar": true,
-    "enable_new_pp": false,
+    "enable_new_pp": true,
     "enable_pro_pr_pp": true,
     "enable_ck_pp": false,
     "enable_age_pp": false,
