@@ -192,8 +192,8 @@
         "mg_mb": "0,,0,"
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "product-recommendations2": {
+      "type": "product-recommendations2",
       "settings": {
         "show": true,
         "title": "You may also like",
@@ -202,9 +202,10 @@
         "style_title": "title_1",
         "ic_tt": "gem",
         "show_clpr": false,
+        "display_effect": "0",
         "display_type": "3",
-        "limit": 6,
-        "space": 30,
+        "limit": 8,
+        "space": 20,
         "col_pr": "3",
         "col_pr_tb": "3",
         "col_pr_mb": "6",
@@ -213,16 +214,21 @@
         "use_cdt": false,
         "round_cd": false,
         "cdt_des": "1",
-        "loop": true,
+        "collection": "hot-sale",
+        "use_pagination": "view-all",
+        "btn_rd": false,
+        "btn_icon": false,
+        "btn_style": "shadow",
+        "loop": false,
         "au_time": 0,
         "au_hover": true,
-        "button": false,
-        "btn_vi": "1",
-        "btn_owl": "1",
-        "btn_color": "0",
-        "dot": false,
-        "dot_owl": "1",
-        "dot_color": "1",
+        "button": true,
+        "btn_vi": "2",
+        "btn_owl": "2",
+        "btn_color": "3",
+        "dot": true,
+        "dot_owl": "2",
+        "dot_color": "3",
         "use_eq_height": true,
         "image_ratio": "ratio_nt",
         "image_size": "nt_contain",
@@ -271,7 +277,7 @@
   "order": [
     "main",
     "product-description",
-    "product-recommendations",
+    "product-recommendations2",
     "recently-viewed-products"
   ]
 }
