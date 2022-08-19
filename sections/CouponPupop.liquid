@@ -11,6 +11,7 @@
 {%- for i in (1..1) %}{% unless section.settings[request.page_type] or se_blocks.size == 0 %}{% break %}{% endunless -%}
 
 <div class="popup_new_wrap container mobile_new_{{section.settings.mb}} new_pp_des_{{class_des}} bgw mfp-with-anim" data-stt='{ "number_pages": {{section.settings.number_pages}},"pp_version": {{section.settings.pp_version}},"after": "{{section.settings.after}}","time_delay": {{section.settings.time_delay}}000,"scroll_delay": {{section.settings.scroll_delay}},"day_next": {{section.settings.day_next}} }'>
+  coupon
 	<div class="row no-gutters al_center fl_center">
 		{%- for block in se_blocks -%}
 		{%- case block.type -%}
