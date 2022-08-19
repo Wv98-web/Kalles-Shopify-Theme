@@ -52,7 +52,6 @@ function CouponPupop() {
             path: '/'
           });
         }
-        // e.t.c.
       }
     });
   };
@@ -66,12 +65,6 @@ function CouponPupop() {
     } else {
       showPopup();
     }
-    // if ($('.mfp-content').length > 0 ) {
-    //   $.magnificPopup.close();
-    //   setTimeout(function(){ showPopup(); }, 555);
-    // } else {
-    //   showPopup();
-    // }
   };
 
   $('.kalles_open_newsletter').on('click', function (e) {
@@ -82,13 +75,10 @@ function CouponPupop() {
   popup.on('open_newsletter', function () {
     showPopup2();
   });
-  //$('.popup_new_wrap').trigger('open_newsletter');
 
   if (designMode) return;
 
   if (!pages) pages = 0;
-  // console.log(pages);
-  // console.log(stt.number_pages);
   if (pages < stt.number_pages) {
     pages++;
     Cookies.set('kalles_shown_pages', pages, {
