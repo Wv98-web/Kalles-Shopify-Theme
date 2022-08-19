@@ -158,13 +158,6 @@
             "page": "delivery-returns"
           }
         },
-        "add": {
-          "type": "add",
-          "disabled": true,
-          "settings": {
-            "title": "Size chat"
-          }
-        },
         "rivui": {
           "type": "rivui",
           "settings": {
@@ -176,7 +169,6 @@
       "block_order": [
         "des",
         "27eaf83b-4dcc-4675-b748-3180daaa6f69",
-        "add",
         "rivui"
       ],
       "settings": {
