@@ -67,7 +67,7 @@ function CouponPupop() {
     }
   };
 
-  $('.kalles_open_newsletter').on('click', function (e) {
+  $('.open_coupon').on('click', function (e) {
     e.preventDefault();
     showPopup2();
   });
