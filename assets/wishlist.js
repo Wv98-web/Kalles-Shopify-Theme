@@ -33,7 +33,7 @@
           console.log(pid);
 
           arrls.forEach((item, index) => {
-            console.log(item == pid ? pid + 'true' : item);
+            console.log(item.id == pid ? pid + 'true' : item);
           });
 
           if (arrls.length == 0) {
