@@ -50,7 +50,6 @@ var T4stt_str = {
 <link rel="preload" href="{{ 'line-awesome.min.css' | asset_url }}" as="style" onload="onloadt4relcss(this)">
 <script id="js_lzt4" src="{{ 'lazysizes.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ vendor_js | asset_url }}" defer="defer" id="js_ntt4"
-  data-wishlist='{{ "wishlist.js" | asset_url }}'
   data-theme='{{ "nt_theme.min.js" | asset_url }}'
   data-stt='{%- render "enable_minify" with "js",nameFile:"nt_settings.js" -%}'
   data-cat='{{ "cat.min.js" | asset_url }}' 
@@ -72,4 +71,5 @@ var T4stt_str = {
   data-cust='{{ "customerclnt.min.js" | asset_url }}'
   data-cusjs='{%- if settings.custom_js %}{{'custom.js' | asset_url}}{% else %}none{% endif %}'
   data-desadm='{{ "des_adm.min.js" | asset_url }}'
-  data-otherryv='{%- render "enable_minify" with "js",nameFile:"reviewOther.js" -%}'></script>
+  data-otherryv='{%- render "enable_minify" with "js",nameFile:"reviewOther.js" -%}'
+  data-wishlist='{{ "wishlist.js" | asset_url }}'></script>
