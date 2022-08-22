@@ -1343,7 +1343,7 @@ jQuery_T4NT(document).ready(function($) {
   // $script(JSNTT4.data('cat'), 'cat_loaded');
   // $script.ready('cat_loaded', function() { $script(JSNTT4.data('sw'), 'sw_loaded'); });
   $script([ JSNTT4.data('cat'),JSNTT4.data('sw') ], 'sw_loaded');
-$script([JSNTT4.data('wishlist')], 'sw_loaded')
+  $script([JSNTT4.data('wishlist')], 'ready4')
   $script.ready('sw_loaded', function() {
     //$script([ JSNTT4.data('user'),JSNTT4.data('cusp') ], 'ready4');
     $script([ JSNTT4.data('user'),JSNTT4.data('cusp'),JSNTT4.data('spcmn') ], 'ready4');
