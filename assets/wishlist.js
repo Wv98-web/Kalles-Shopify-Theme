@@ -4,9 +4,10 @@
 
   geckoShopify.Wishlist = function () {
     $script(JSNTT4.data('wishlist'), function () {
-      body.on('click', '.addRecentlyProduct > a', function (e) {
+      body.on('click', '.addRecentlyProductBtn', function (e) {
         e.preventDefault();
-        localStorage.setItem('wish', $(this));
+        const nt_recent = localStorage.getItem('nt_recent');
+        console.log(nt_recent, 'nt_recent');
       });
     });
   };
