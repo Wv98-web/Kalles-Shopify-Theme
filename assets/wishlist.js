@@ -17,8 +17,6 @@
           get = el.data('get'),
           unpr = el.data('unpr'),
           limit = el.data('limit');
-        
-        
 
         if (ls != null) {
           var arrls = ls.split(','),
