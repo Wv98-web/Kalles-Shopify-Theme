@@ -10,5 +10,4 @@
 
 jQuery_T4NT(document).ready(function ($) {
   geckoShopify.Wishlist();
-  console.log('wishlist 123');
 });
