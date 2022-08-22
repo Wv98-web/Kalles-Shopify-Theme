@@ -119,7 +119,7 @@
           } else {
             arrls = arrls.splice(0, limit);
           }
-          // console.log(index);
+          console.log(index);
           // console.log(arrls);
 
           if (arrls.length == 0) {
