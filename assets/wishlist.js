@@ -1,5 +1,6 @@
 (function ($) {
   'use strict';
+  var body = $('body');
 
   geckoShopify.Wishlist = function () {
     $script(JSNTT4.data('wishlist'), function () {
