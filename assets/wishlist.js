@@ -35,6 +35,7 @@
           arrls.filter((item, index) => {
             console.log(item.includes(pid), 'item');
           });
+          console.log(arrls, 'filter')
 
           if (arrls.length == 0) {
             el.slideUp();
