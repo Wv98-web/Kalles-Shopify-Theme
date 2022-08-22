@@ -102,7 +102,11 @@
       });
 
       body.on('click', '.showWishlistDialog', function (e) {
-        $('.wishlistDialog').show();
+        $('.wishlistDialog').show(500, function () {
+          $(this).html(function () {
+            return "<p>Are you sure you want to delete the item(s)?</p><button class="hideWishlistDialog">CANCEL</button> <button class="deleteAllWishlist">OK</button>"
+          })
+        });
       });
 
       body.on('click', '.hideWishlistDialog', function (e) {
