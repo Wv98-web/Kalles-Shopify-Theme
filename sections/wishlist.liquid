@@ -108,7 +108,8 @@
    {%- elsif search.performed and search.results_count == 0 -%}
         <!-- no product -->
    {%- else -%}
-       <div class="related product-extra mt__60" id="recently_wrap"  data-sid="{{section.id}}" data-section-type="product-recently" data-get='{{ routes.search_url }}' data-unpr='{{section.settings.unavailable_prs}}' data-id="id:{{product.id|default:19041994}}" data-limit="{{limit}}" data-expands="-1"><div class="lds_bginfinity pr"></div></div>
+       <div class="related product-extra mt__60" id="recently_wrap"  data-sid="{{section.id}}" data-section-type="product-recently" data-get='{{ routes.search_url }}' data-unpr='{{section.settings.unavailable_prs}}' data-id="id:{{product.id|default:19041994}}" data-limit="{{limit}}" data-expands="-1"><div class="lds_bginfinity pr"></div>
+       <div class="wishlist_delete">delete</div></div>
    {%- endif -%}
 
 {%- endfor -%}
