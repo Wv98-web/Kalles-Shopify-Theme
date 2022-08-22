@@ -10,7 +10,9 @@ class Wishlist {
     this._renderWishList();
   }
 
-  _renderCatalogList() {}
+  _renderCatalogList () {
+    console.log("2112 wishlist")
+  }
 }
 
 window.addEventListener('DOMContentLoaded', function () {
