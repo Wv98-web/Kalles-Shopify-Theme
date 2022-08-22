@@ -101,7 +101,7 @@
         }
       });
 
-      body.on('click', '.addRecentlyProductBtn', function (e) {
+      body.on('click', '.deleteAllWishlist', function (e) {
         e.preventDefault();
 
         var ls = localStorage.getItem('nt_recent'),
