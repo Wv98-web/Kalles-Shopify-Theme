@@ -2,7 +2,7 @@
 {{- 'pre_theme.min.css' | asset_url | stylesheet_tag -}}
 <link rel="preload" as="script" href="{{ 'lazysizes.min.js' | asset_url }}">
 <link rel="preload" as="script" href="{{ vendor_js | asset_url }}">
-<link rel="preload" as="script" href="{{ wishlist.js | asset_url }}">
+<link rel="preload" as="script" href="{{ 'wishlist.js' | asset_url }}">
 <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'yes-js');const t_name = {{t_name | json}},designMode = {{request.design_mode | json}},t_cartCount = {{ cart.item_count | json}}{% if request.design_mode %},ThemeNameT4='kalles',ThemeNameT42='ThemeIdT4Kalles',themeIDt4 = {{theme.id}},ck_hostname = 'kalles-niche-none',ThemeIdT4 = {{shop.metafields.t4pcc.kalles |json}},SopEmlT4={{shop.email | json}},ThemePuT4 = '#purchase_codet4'{% endif %},t_shop_currency = {{ cart.currency.iso_code | json }}, t_moneyFormat = {{ shop.money_format | json }}, t_cart_url = {{ routes.cart_url | json }},t_cartadd_url = {{ routes.cart_add_url | json }},t_cartchange_url = {{ routes.cart_change_url | json }}, pr_re_url = {{ routes.product_recommendations_url | json }}; function onloadt4relcss(_this) {_this.onload=null;_this.rel='stylesheet'}{% comment -%} This code is done to force reload the page when the back button is hit (which allows to fix stale data on cart, for instance){% endcomment %} (function () {window.onpageshow = function() {if (performance.navigation.type === 2) {document.dispatchEvent(new CustomEvent('cart:refresh'))} }; })();
 var T4stt_str = { 
   "PleaseChoosePrOptions":{{'products.product.Please_choose_pr_options' | t | json }}, 
