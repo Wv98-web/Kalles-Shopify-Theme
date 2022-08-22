@@ -36,7 +36,7 @@
             return false;
           }
 
-          const arrls_f = arrls.filter(function (item, index) {
+          const arrls_f = arrls.filter(function (item) {
             return !item.includes(pid);
           });
 
