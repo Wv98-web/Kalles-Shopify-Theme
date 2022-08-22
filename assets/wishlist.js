@@ -32,17 +32,17 @@
           console.log(arrls);
           console.log(pid);
 
-          arrls.filter(function (item, index) {
+          const arrls_f = arrls.filter(function (item, index) {
             return !item.includes(pid);
           });
-          console.log(arrls, 'filter');
+          console.log(arrls_f, 'filter');
 
           if (arrls.length == 0) {
             el.slideUp();
             return false;
           }
 
-          var arr_list = arrls.toString(),
+          var arr_list = arrls_f.toString(),
             uri = arr_list.replace(/,/g, ' OR '),
             res = encodeURI(uri);
           console.log(res);
