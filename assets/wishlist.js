@@ -129,9 +129,12 @@
             return false;
           }
 
+          localStorage.removeItem('nt_recent');
+
           var arr_list = arrls.toString(),
             uri = arr_list.replace(/,/g, ' OR '),
-            res = encodeURI(uri);
+            // res = encodeURI(uri);
+            res = '';
           // console.log(res);
 
           $.ajax({
