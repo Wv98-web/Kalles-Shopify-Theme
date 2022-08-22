@@ -37,11 +37,13 @@
               {%- if inc_pr == '1' or inc_pr == '1 tc' -%}
                 {%- for i in array -%}{%- assign j = i | plus:0 -%}{%- assign item = results | where: "id", j -%}
                   {%- if item == blank %}{% continue %}{% endif -%}
+                  <div class="wishlist_delete">delete</div></div>
                   {%- render 'pr_loop_grid_1',product:item[0],use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
                 {%- endfor -%}
               {%- else -%}
                 {%- for i in array -%}{%- assign j = i | plus:0 -%}{%- assign item = results | where: "id", j -%}
                   {%- if item == blank %}{% continue %}{% endif -%}
+                  <div class="wishlist_delete">delete</div></div>
                   {%- render 'pr_loop_grid_2',product:item[0],use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
                 {%- endfor -%}
               {%- endif -%}
@@ -50,11 +52,13 @@
               {%- if inc_pr == '1' or inc_pr == '1 tc' -%}
                 {%- for i in array reversed -%}{%- assign j = i | plus:0 -%}{%- assign item = results | where: "id", j -%}
                   {%- if item == blank %}{% continue %}{% endif -%}
+                  <div class="wishlist_delete">delete</div></div>
                   {%- render 'pr_loop_grid_1',product:item[0],use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
                 {%- endfor -%}
               {%- else -%}
                 {%- for i in array reversed -%}{%- assign j = i | plus:0 -%}{%- assign item = results | where: "id", j -%}
                   {%- if item == blank %}{% continue %}{% endif -%}
+                  <div class="wishlist_delete">delete</div></div>
                   {%- render 'pr_loop_grid_2',product:item[0],use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
                 {%- endfor -%}
               {%- endif -%}
@@ -69,10 +73,12 @@
               {%- if modu == 0 -%}
                 {%- if inc_pr == '1' or inc_pr == '1 tc' -%}
                   {%- for product in results -%}
+                  <div class="wishlist_delete">delete</div></div>
                     {%- render 'pr_loop_grid_1',product:product,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
                   {%- endfor -%}
                 {%- else -%}
                   {%- for product in results -%}
+                  <div class="wishlist_delete">delete</div></div>
                     {%- render 'pr_loop_grid_2',product:product,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
                   {%- endfor -%}
                 {%- endif -%} 
@@ -80,10 +86,12 @@
               {%- else -%}
                 {%- if inc_pr == '1' or inc_pr == '1 tc' -%}
                   {%- for product in results reversed -%}
+                  <div class="wishlist_delete">delete</div></div>
                     {%- render 'pr_loop_grid_1',product:product,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
                   {%- endfor -%}
                 {%- else -%}
                   {%- for product in results reversed -%}
+                  <div class="wishlist_delete">delete</div></div>
                     {%- render 'pr_loop_grid_2',product:product,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}
                   {%- endfor -%}
                 {%- endif -%} 
