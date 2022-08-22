@@ -36,13 +36,13 @@
             return false;
           }
 
-          const arrls_f = arrls.filter(function (item) {
+          const arrls_filter = arrls.filter(function (item) {
             return !item.includes(pid);
           });
           localStorage.removeItem('nt_recent');
-          localStorage.setItem('nt_recent', arrls_f);
+          localStorage.setItem('nt_recent', arrls_filter.toString());
 
-          var arr_list = arrls_f.toString(),
+          var arr_list = arrls_filter.toString(),
             uri = arr_list.replace(/,/g, ' OR '),
             res = encodeURI(uri);
           console.log(res);
