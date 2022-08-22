@@ -45,7 +45,7 @@
           var arr_list = arrls_filter.toString(),
             uri = arr_list.replace(/,/g, ' OR '),
             res = encodeURI(uri);
-          console.log(res);
+          // console.log(res);
 
           $.ajax({
             url:
