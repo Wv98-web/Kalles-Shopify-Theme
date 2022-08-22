@@ -30,11 +30,11 @@
           }
           // console.log(index);
           console.log(arrls);
-          console.log(pid)
+          console.log(pid);
 
           arrls.forEach((item, index) => {
-            console.log(item[index])
-          })
+            console.log(item == pid ? pid + 'true' : item);
+          });
 
           if (arrls.length == 0) {
             el.slideUp();
