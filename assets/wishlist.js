@@ -143,7 +143,9 @@
               '?section_id=' +
               Sectionid +
               '&type=product&options[unavailable_products]=' +
-              unpr,
+              unpr +
+              '&q=' +
+              res,
             dataType: 'html',
             type: 'GET',
             success: function (section) {
