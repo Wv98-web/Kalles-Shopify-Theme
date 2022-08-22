@@ -4259,7 +4259,7 @@
             arrls = arrls.splice(0,limit);
          }
          // console.log(index);
-         // console.log(arrls);
+         console.log(arrls);
 
          if(arrls.length == 0) {
           el.slideUp();
@@ -4270,7 +4270,6 @@
             uri = arr_list.replace(/,/g, ' OR '),
             res = encodeURI(uri);
             //console.log(res);
-        console.log(arr_list, 'arr_list')
 
             $.ajax({
               url: get+'?section_id='+Sectionid+'&type=product&options[unavailable_products]='+unpr+'&q='+res,
