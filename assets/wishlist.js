@@ -33,7 +33,7 @@
           console.log(pid);
 
           arrls.forEach((item, index) => {
-            console.log(item.id, 'item');
+            console.log(item.includes(pid), 'item');
           });
 
           if (arrls.length == 0) {
