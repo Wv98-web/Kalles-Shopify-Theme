@@ -39,8 +39,8 @@
           const arrls_f = arrls.filter(function (item) {
             return !item.includes(pid);
           });
-
-          console.log(arrls_f.toString());
+          localStorage.removeItem('nt_recent');
+          localStorage.setItem('nt_recent', arrls_f);
 
           var arr_list = arrls_f.toString(),
             uri = arr_list.replace(/,/g, ' OR '),
