@@ -101,9 +101,12 @@
         }
       });
 
+      body.on('click', '.showWishlistDialog', function (e) {
+        $('.wishlistDialog').show();
+      });
+
       body.on('click', '.deleteAllWishlist', function (e) {
         e.preventDefault();
-        $('.wishlistDialog').show();
 
         localStorage.removeItem('nt_recent');
         geckoShopify.recently_viewed();
