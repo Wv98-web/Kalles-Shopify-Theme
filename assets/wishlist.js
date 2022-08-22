@@ -17,8 +17,6 @@
           get = el.data('get'),
           unpr = el.data('unpr'),
           limit = el.data('limit');
-        
-        console.log(ls, 'ls')
 
         if (ls != null) {
           var arrls = ls.split(','),
@@ -41,6 +39,8 @@
           const arrls_f = arrls.filter(function (item) {
             return !item.includes(pid);
           });
+
+          console.log(arrls_f.toString());
 
           var arr_list = arrls_f.toString(),
             uri = arr_list.replace(/,/g, ' OR '),
