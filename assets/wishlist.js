@@ -8,7 +8,10 @@
 
       body.on('click', '.wishlist_delete', function (e) {
         e.preventDefault();
-        console.log(e, 'delete');
+
+        var $this = $(this),
+          pid = $this.data('pid');
+        console.log(pid, 'delete');
       });
 
       body.on('click', '.addRecentlyProductBtn', function (e) {
