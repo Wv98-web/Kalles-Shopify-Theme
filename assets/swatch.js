@@ -4270,6 +4270,7 @@
             uri = arr_list.replace(/,/g, ' OR '),
             res = encodeURI(uri);
             //console.log(res);
+        console.log(arr_list, 'arr_list')
 
             $.ajax({
               url: get+'?section_id='+Sectionid+'&type=product&options[unavailable_products]='+unpr+'&q='+res,
