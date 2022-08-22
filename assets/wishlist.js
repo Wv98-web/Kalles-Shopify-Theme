@@ -6,7 +6,7 @@
     $script(JSNTT4.data('wishlist'), function () {
       var el = sl || $('#recently_wrap');
 
-      $('.wishlist_delete').on('click', function (e) {
+      $('.wishlist_delete').click(function (e) {
         console.log(e);
       });
 
