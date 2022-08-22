@@ -116,7 +116,7 @@
             arrls = arrls.splice(0, limit);
           }
           // console.log(index);
-          console.log(arrls);
+          // console.log(arrls);
 
           if (arrls.length == 0) {
             el.slideUp();
@@ -126,7 +126,7 @@
           var arr_list = arrls.toString(),
             uri = arr_list.replace(/,/g, ' OR '),
             res = encodeURI(uri);
-          console.log(res);
+          // console.log(res);
 
           $.ajax({
             url:
