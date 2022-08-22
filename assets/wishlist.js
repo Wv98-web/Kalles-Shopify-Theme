@@ -7,6 +7,7 @@
       var el = sl || $('#recently_wrap');
 
       body.on('click', '.wishlist_delete', function (e) {
+        e.preventDefault();
         console.log("delete")
       })
 
