@@ -6,8 +6,6 @@
     $script(JSNTT4.data('wishlist'), function () {
       body.on('click', '.addRecentlyProduct', function (e) {
         console.log($(this), 'this');
-
-        localStorage.setItem('recent_view', e);
       });
     });
   };
