@@ -32,7 +32,7 @@
           console.log(arrls);
           console.log(pid);
 
-          arrls.forEach((item, index) => {
+          arrls.filter((item, index) => {
             console.log(item.includes(pid), 'item');
           });
 
