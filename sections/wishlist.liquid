@@ -1,5 +1,9 @@
 {%- for i in (1..1) %}{% unless section.settings.show %}{% break %}{% endunless -%}
-<div class="wishlistDialog dn">wishlistDialog</div>
+<div class="wishlistDialog dn">
+  <p>Are you sure you want to delete the item(s)?</p>
+  <button class="hideWishlistDialog">CANCEL</button>
+  <button class="deleteAllWishlist">OK</button>
+</div>
 
   {%- assign se_stts = section.settings -%}
   {%- assign use_pagination = se_stts.use_pagination -%}
