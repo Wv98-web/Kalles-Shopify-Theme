@@ -17,6 +17,8 @@
           get = el.data('get'),
           unpr = el.data('unpr'),
           limit = el.data('limit');
+        
+        
 
         if (ls != null) {
           var arrls = ls.split(','),
@@ -28,8 +30,8 @@
           } else {
             arrls = arrls.splice(0, limit);
           }
-          // console.log(index);
-          // console.log(arrls);
+          console.log(index);
+          console.log(arrls);
 
           if (arrls.length == 0) {
             el.slideUp();
