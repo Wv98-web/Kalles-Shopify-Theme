@@ -4,13 +4,8 @@
 
   geckoShopify.Wishlist = function (sl) {
     $script(JSNTT4.data('wishlist'), function () {
-
-
-
-
-      
       var el = sl || $('#recently_wrap');
-      
+
       body.on('click', '.addRecentlyProductBtn', function (e) {
         e.preventDefault();
 
@@ -20,6 +15,8 @@
           get = el.data('get'),
           unpr = el.data('unpr'),
           limit = el.data('limit');
+
+        console.log(ls, id, Sectionid, get, unpr, limit);
 
         if (ls != null) {
           var arrls = ls.split(','),
