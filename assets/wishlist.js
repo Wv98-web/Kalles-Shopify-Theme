@@ -8,8 +8,8 @@
 
       body.on('click', '.wishlist_delete', function (e) {
         e.preventDefault();
-        console.log("delete")
-      })
+        console.log(e, 'delete');
+      });
 
       body.on('click', '.addRecentlyProductBtn', function (e) {
         e.preventDefault();
