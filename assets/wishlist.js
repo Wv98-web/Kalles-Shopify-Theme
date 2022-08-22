@@ -103,6 +103,7 @@
 
       body.on('click', '.deleteAllWishlist', function (e) {
         e.preventDefault();
+        $('.showWishlistDialog').show();
 
         localStorage.removeItem('nt_recent');
         geckoShopify.recently_viewed();
