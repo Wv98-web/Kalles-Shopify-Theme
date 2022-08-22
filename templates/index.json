@@ -34,79 +34,10 @@
             "br_pd": 20,
             "br_pd_mb": 10
           }
-        },
-        "16357021760efbe511-5": {
-          "type": "txt",
-          "disabled": true,
-          "settings": {
-            "font": "f_body",
-            "title": "SUMMER SALE",
-            "color": "#222222",
-            "fw_text": 500,
-            "fs_text": 18,
-            "lh_text": 0,
-            "ls_text": 0,
-            "fs_mb_text": 12,
-            "lh_mb_text": 0,
-            "ls_mb_text": 0,
-            "hide": false,
-            "sp": 5,
-            "sp_mb": 5
-          }
-        },
-        "16357021760efbe511-1": {
-          "type": "txt",
-          "disabled": true,
-          "settings": {
-            "font": "f_heading",
-            "title": "Save up to 70%",
-            "color": "#222222",
-            "fw_text": 600,
-            "fs_text": 55,
-            "lh_text": 0,
-            "ls_text": 0,
-            "fs_mb_text": 20,
-            "lh_mb_text": 0,
-            "ls_mb_text": 0,
-            "hide": false,
-            "sp": 10,
-            "sp_mb": 10
-          }
-        },
-        "16357021760efbe511-4": {
-          "type": "btn",
-          "disabled": true,
-          "settings": {
-            "title": "Explore Now",
-            "btn_link": "shopify:\/\/collections\/trending",
-            "title2": "Shop Now",
-            "btn_link2": "",
-            "btn_w": false,
-            "btn_icon": false,
-            "cl_txt": "#ffffff",
-            "cl_bg": "#222222",
-            "cl_bd": "#222222",
-            "fs_text": 14,
-            "fw_text": 600,
-            "h": 40,
-            "ls_text": 0,
-            "bdr": 0,
-            "pd": 15,
-            "fs_mb_text": 14,
-            "h_mb": 40,
-            "ls_mb_text": 0,
-            "bdr_mb": 0,
-            "pd_mb": 15,
-            "sp": 0,
-            "sp_mb": 0
-          }
         }
       },
       "block_order": [
-        "16357021760efbe511-0",
-        "16357021760efbe511-5",
-        "16357021760efbe511-1",
-        "16357021760efbe511-4"
+        "16357021760efbe511-0"
       ],
       "settings": {
         "se_height": "cus_h",
