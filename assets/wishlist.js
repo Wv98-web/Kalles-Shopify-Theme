@@ -30,6 +30,11 @@
           }
           // console.log(index);
           console.log(arrls);
+          console.log(pid)
+
+          arrls.forEach((item, index) => {
+            console.log(item[index])
+          })
 
           if (arrls.length == 0) {
             el.slideUp();
