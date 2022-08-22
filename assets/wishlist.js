@@ -6,7 +6,7 @@
     $script(JSNTT4.data('wishlist'), function () {
       body.on('click', '.addRecentlyProduct', function (e) {
         e.preventDefault();
-        console.log($(this), 'product');
+        console.log($(this), 'this');
 
         localStorage.setItem('recent_view', e);
       });
