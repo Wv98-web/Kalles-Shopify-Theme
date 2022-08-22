@@ -105,11 +105,16 @@
         $('.wishlistDialog').show();
       });
 
+      body.on('click', '.hideWishlistDialog', function (e) {
+        $('.wishlistDialog').hide();
+      });
+
       body.on('click', '.deleteAllWishlist', function (e) {
         e.preventDefault();
 
         localStorage.removeItem('nt_recent');
         geckoShopify.recently_viewed();
+        $('.wishlistDialog').hide();
       });
     });
   };
