@@ -4259,7 +4259,7 @@
             arrls = arrls.splice(0,limit);
          }
          // console.log(index);
-         console.log(arrls);
+        //  console.log(arrls);
 
          if(arrls.length == 0) {
           el.slideUp();
