@@ -4,6 +4,9 @@
   geckoShopify.Wishlist = function () {
     $script(JSNTT4.data('wishlist'), function () {
       console.log('wishlist 123');
+      body.on('click', '.addRecentlyProduct', function (e) {
+        console.log('123');
+      });
     });
   };
 
