@@ -1751,7 +1751,7 @@
           "ic_tt": "gem",
           "show_clpr": false,
           "display_effect": "0",
-          "limit": 8,
+          "limit": 12,
           "sortby": "1",
           "space": 20,
           "col_pr": "3",
