@@ -33,7 +33,7 @@
           console.log(pid);
 
           const arrls_f = arrls.filter(function (item, index) {
-            return item.includes(pid);
+            return !item.includes(pid);
           });
           console.log(arrls_f, 'filter');
 
