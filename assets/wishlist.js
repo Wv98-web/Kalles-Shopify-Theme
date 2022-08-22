@@ -10,7 +10,7 @@ class Wishlist {
     this._renderWishList();
   }
 
-  _renderCatalogList () {
+  _renderWishList () {
     console.log("2112 wishlist")
   }
 }
