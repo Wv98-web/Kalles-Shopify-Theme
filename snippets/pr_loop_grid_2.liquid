@@ -57,7 +57,7 @@
         <div class="product-image pr oh lazyloadt4s" data-set4url="/?section_id=main-img{{sett_equal}}" data-rendert4s="{{pr_url_js}}">{%- if images_0 != blank %}<noscript><img class="pr_lazy_img main-img nt_img_ratio" loading="lazy" src="{{ images_0 | img_url: '600x' }}" alt="{{ images_0.alt | escape }}"></noscript>{% endif %}<div class="nt_bg_lz nt_fk_lz"{% unless sett_equal %} style="padding-top:{{ 1 | divided_by: images_0.aspect_ratio | times: 100}}%;"{% endunless %}></div></div>
       {%- endif -%}
       <div class="product-info mt__15">
-         {%- if product.vendor.size > 0 and show_vendor -%}<div class="product-brand"><a class="cg chp" href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a></div>{%- endif -%}
+         {%- if product.vendor.size > 0 and show_vendor -%}<div class="product-brand"><a class="cg chp addRecentlyProduct" href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a></div>{%- endif -%}
          <h3 class="product-title pr fs__14 mg__0 fwm"><a class="cd chp" href="{{pr_url}}">{{product.title}}</a></h3>
          <span class="price dib mb__5">{%- render 'product_price',product:product,inc_price:inc_price -%}</span>
          {%- if use_rating -%}{%- render 'rating',product:product,inc_rating:inc_rating -%}{%- endif -%}
