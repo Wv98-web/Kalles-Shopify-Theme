@@ -29,18 +29,16 @@
             arrls = arrls.splice(0, limit);
           }
           // console.log(index);
-          console.log(arrls);
-          console.log(pid);
-
-          const arrls_f = arrls.filter(function (item, index) {
-            return !item.includes(pid);
-          });
-          console.log(arrls_f, 'filter');
+          // console.log(arrls);
 
           if (arrls.length == 0) {
             el.slideUp();
             return false;
           }
+
+          const arrls_f = arrls.filter(function (item, index) {
+            return !item.includes(pid);
+          });
 
           var arr_list = arrls_f.toString(),
             uri = arr_list.replace(/,/g, ' OR '),
