@@ -32,10 +32,10 @@
           console.log(arrls);
           console.log(pid);
 
-          const arrls_f = arrls.filter(function (item, index) {
+          arrls.filter(function (item, index) {
             return !item.includes(pid);
           });
-          console.log(arrls_f, 'filter');
+          console.log(arrls, 'filter');
 
           if (arrls.length == 0) {
             el.slideUp();
