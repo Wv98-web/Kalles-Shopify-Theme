@@ -95,6 +95,7 @@
         {%- if se_stts.display_effect == "0" and use_pagination != 'none' -%}
         {%- assign collection = collections[se_stts.collection] -%}
         <div class="tc mt__40">
+          <button class="addRecentlyProductBtn">click</button>
           {%- if se_stts.btn_style == 'shadow' -%}
           <a class="pr button view_more js_add_loading button_{{se_stts.btn_style}} btn_icon_{{se_stts.btn_icon}}" href="{{ collection.url }}">{{ 'products.grid_items.view_more' | t }}</a>  
           {%- else -%}
