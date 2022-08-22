@@ -25,16 +25,20 @@
           if (index > -1) {
             arrls = arrls.splice(0, limit + 1);
             arrls.splice(index, 1);
+            arrls.filter(function (item, index) {
+              return item.includes(pid);
+            });
           } else {
             arrls = arrls.splice(0, limit);
+            arrls.filter(function (item, index) {
+              return item.includes(pid);
+            });
           }
           // console.log(index);
           console.log(arrls);
           console.log(pid);
 
-          arrls.filter(function (item, index) {
-            return item.includes(pid);
-          });
+          
           console.log(arrls, 'filter');
 
           if (arrls.length == 0) {
