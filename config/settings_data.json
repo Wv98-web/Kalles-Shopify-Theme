@@ -228,7 +228,7 @@
     "size_currency": "sm",
     "currency_pos": "0",
     "supported_currencies": "EUR - EUR | USD - USD | GBP - GBP| SEK -SEK",
-    "currency_format": "money_format",
+    "currency_format": "money_with_currency_format",
     "round_currency": false,
     "notify_currency": true,
     "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"><\/span>, the checkout will use {{ currency }} at the most current exchange rate.",
