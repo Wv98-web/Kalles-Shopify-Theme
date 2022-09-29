@@ -1,0 +1,23 @@
+<div data="scmBannerSlider" data-id="{{ section.settings.scm_banner_slider }}" style="display: none;"></div>
+{% schema %}
+{
+  "name": "SmartifyApps Slider",
+  "settings": [
+    {
+      "type": "select",
+      "id": "scm_banner_slider",
+      "label": "Choose slider",
+      "options": [
+                {
+          "value": "20080",
+          "label": "slideshow demo"
+        }              ],
+      "default": "20080"
+    }
+  ],
+  "presets": [{
+    "name": "SmartifyApps Banner Slider",
+    "category": "SmartifyApps Slider"
+  }]
+}
+{% endschema %}
