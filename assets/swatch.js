@@ -1471,7 +1471,6 @@
           $(this).data('val', $(this).val());
          }).on( 'change','.qty_cart_js', function( e ) {
         //e.preventDefault();
-          console.log('123')
 
           var _this = $(this),
               _item = _this.closest('.js_cart_item'), 
@@ -1481,6 +1480,8 @@
               qty = _this.val() || 1,
               max = _this.attr('max') || 9999;
               //console.log(prev);
+
+          console.log(qty, 'change')
 
           _this.parent().find('.minus').removeClass (function (index, css) {
              return (css.match (/(^|\s)qty_\S+/g) || []).join(' ');
