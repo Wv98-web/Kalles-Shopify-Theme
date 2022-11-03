@@ -1049,7 +1049,6 @@
     geckoShopify.ajaxAddItem = function() {
 
       body.on('click', '.js_addtc', function(e) {
-
         e.preventDefault();
 
         var _this = $(this),
@@ -1472,6 +1471,7 @@
           $(this).data('val', $(this).val());
          }).on( 'change','.qty_cart_js', function( e ) {
         //e.preventDefault();
+          console.log('123')
 
           var _this = $(this),
               _item = _this.closest('.js_cart_item'), 
