@@ -1049,6 +1049,7 @@
     geckoShopify.ajaxAddItem = function() {
 
       body.on('click', '.js_addtc', function(e) {
+
         e.preventDefault();
 
         var _this = $(this),
@@ -2848,6 +2849,8 @@
             max = parseFloat($qty.attr('max')),
             min = parseFloat($qty.attr('min')),
             step = $qty.attr('step');
+
+        console.log(`数量为${$qty}` )
 
          // Format values
          if (!currentVal || currentVal === '' || currentVal === 'NaN') currentVal = 0;
