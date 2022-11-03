@@ -2850,7 +2850,7 @@
             min = parseFloat($qty.attr('min')),
             step = $qty.attr('step');
 
-        console.log('数量为', $currentVal )
+        console.log('数量为', currentVal )
 
          // Format values
          if (!currentVal || currentVal === '' || currentVal === 'NaN') currentVal = 0;
