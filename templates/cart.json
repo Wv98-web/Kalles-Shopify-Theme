@@ -81,8 +81,8 @@
         "btn"
       ],
       "settings": {
-        "ajax_enable": true,
-        "calc_ship": true,
+        "ajax_enable": false,
+        "calc_ship": false,
         "show_note": true,
         "show_rates": false,
         "show_discount": true,

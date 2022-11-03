@@ -1520,6 +1520,11 @@
               "url": "shopify:\/\/collections\/all-products",
               "style": "primary tu"
             }
+          },
+          "7cc82854-337c-4dc6-993b-c828c6b409d0": {
+            "type": "tax",
+            "settings": {
+            }
           }
         },
         "block_order": [
@@ -1529,7 +1534,8 @@
           "cart_widget-4",
           "cart_widget-5",
           "cart_widget-6",
-          "cart_widget-7"
+          "cart_widget-7",
+          "7cc82854-337c-4dc6-993b-c828c6b409d0"
         ],
         "settings": {
           "style": "1",
@@ -1538,8 +1544,8 @@
           "calc_ship": false,
           "show_note": true,
           "show_rates": false,
-          "show_discount": false,
-          "show_gift_wrap": true
+          "show_discount": true,
+          "show_gift_wrap": false
         }
       },
       "mb_cat": {
